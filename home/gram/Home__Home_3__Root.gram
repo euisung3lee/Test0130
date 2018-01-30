@@ -1,0 +1,17 @@
+# 홈 화면에서 페이스북 아이콘을 3번째 페이지로 이동시켜줘 / Move Facebook icon to 3rd page of Home screen
+
+grammar Home;
+public <Home> = <Home_3>;
+
+<Home_3> = 
+    /4/ ( <AtHome> <Home_Param_AppName_HomeSingleAppMove>[<Home_Application>][의|에][<Home_Shortcut>][(을|를)] <ToThePage> <Home_Move> ) |
+    /1/ ( <AtHome> <Home_Param_AppName_HomeSingleAppMove>[<Home_Application>][의|에][<Home_Shortcut>][(을|를)] <Home_Move> <ToThePage> ) |
+    /1/ ( <Home_Move> <AtHome> <Home_Param_AppName_HomeSingleAppMove>[<Home_Application>][의|에][<Home_Shortcut>][(을|를)] <ToThePage> ) |
+    /4/ ( <AtHome> <ToThePage> <Home_Param_AppName_HomeSingleAppMove>[<Home_Application>][의|에][<Home_Shortcut>][(을|를)] <Home_Move> ) |
+    /1/ ( <AtHome> <ToThePage> <Home_Move> <Home_Param_AppName_HomeSingleAppMove>[<Home_Application>][의|에][<Home_Shortcut>][(을|를)] ) |
+    /1/ ( <AtHome> <Home_Move> <ToThePage> <Home_Param_AppName_HomeSingleAppMove>[<Home_Application>][의|에][<Home_Shortcut>][(을|를)] ) ;
+
+<ToThePage> = 
+    ( (<Home_Param_Page_HomeSingleAppMove> [번째|째] <Home_Space> ) (로|으로|에|에다|에다가) ) ;
+#    /5/ ( (<Home_Param_Page_HomeSingleAppMove> [번째|째] <Home_Space> ) (로|으로|에|에다|에다가) ) |
+#    /1/ ( (<Home_Param_Page_HomeSingleAppMove> [번째|째] <Home_Space> ) (의|에|에서) ) <Home_Param_Direction_HomeSingleAppMove> (로|으로|에|에다|에다가);

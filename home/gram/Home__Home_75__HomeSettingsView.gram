@@ -1,0 +1,15 @@
+# Change to Homescreen and Apps screen mode/홈 화면과 앱스 화면이 있는 모드로 변경해줘
+
+grammar Home;
+public <Home> = <Home_75__HomeSettingsView>;
+
+<Home_75__HomeSettingsView> = 
+    ( [<Home_Home>[의|에|에서]] <Home_Apps> [도] (있는|잇는|활성화[된]) (모드|상태|설정|<Home_Home>)[(로|으로)] (<Home_Change>|<Home_Do_Use>) ) |
+    ( (/5/<home_and_apps>|/1/<apps_and_home>) (있는|잇는|활성화[된]) (모드|상태|설정|<Home_Home>)[(로|으로)] (<Home_Change>|<Home_Do_Use>) ) |
+    ( <Home_Home>[의|에] [<Home_Space>][의|에] [구성|모드|상태|설정] [을|를] [일반|노멀|기본|normal|basic|분리|분리된] [구성|모드|상태|설정] [으로|로] (<Home_Change>|<Home_Do_Use>) ) |
+    
+    # 홈에서 홈 앱스 둘다 보게 설정하자
+    ( [<Home_Home>(의|에|에서)] (/5/<home_and_apps>|/1/<apps_and_home>)[둘다|둘 다|모두|다|전부] <Home_a_Show> (<Home_Change>|<Home_Do_Use>) );
+
+<home_and_apps> = (<Home_Home>[/5/|<Home_Space>][/5/|와|과|하고|이랑|랑] <Home_Apps> [/5/|<Home_Space>][/5/|이|도]);
+<apps_and_home> = (<Home_Apps>[/5/|<Home_Space>][/5/|와|과|하고|이랑|랑] <Home_Home> [/5/|<Home_Space>][/5/|이|도]);

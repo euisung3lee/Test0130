@@ -1,0 +1,6 @@
+# "페이스북" 앱 절전 상태로 바꿔줘 / Put "Facebook" app to sleep mode
+
+grammar Home;
+public <Home> = <Home_10__Home>;
+
+<Home_10__Home> = <Home_Param_AppName_HomeSingleAppSelectedView>[<Home_Apps>][(을|를)] (절전|슬립)[(모드|상태)][(로|으로)] <Common_Change>;

@@ -1,0 +1,6 @@
+# "페이스북" 앱 Secure Folder에 추가해줘 / Add "Facebook" app to Secure Folder
+
+grammar Home;
+public <Home> = <Home_11__Home>;
+
+<Home_11__Home> = <Home_Param_AppName_HomeSingleAppSelectedView>[<Home_Apps>][(을|를)] (시큐어|씨큐어|보안|비밀|secure)<Home_Folder>[(에|으로|로)] <Common_Add>;

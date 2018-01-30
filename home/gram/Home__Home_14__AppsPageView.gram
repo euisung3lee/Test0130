@@ -1,0 +1,16 @@
+# 페이스북의 앱 정보를 보여줘 / Show App info of Facebook
+
+grammar Home;
+public <Home> = <Home_14__AppsPageView>;
+
+<Home_14__AppsPageView> = 
+    ( <AppName> <Home_AppInfo>[을|를] <Home_Show> ) |
+    ( <Home_Show> <AppName> <Home_AppInfo>[을|를] ) |
+    ( <Home_Show> <Home_AppInfo>[을|를] <AppName> ) |
+    ( <Home_AppInfo>[을|를] <Home_Show> <AppName> ) |
+    ( <AppName> <Home_Show>  <Home_AppInfo>[을|를]) |
+    ( <Home_AppInfo>[을|를] <AppName> <Home_Show> ) ;
+
+<AppName> = 
+    ( <Home_Application> <Home_Param_AppName_AppsSingleAppSelectedView> |
+        <Home_Param_AppName_AppsSingleAppSelectedView>[<Home_Application>] ) [의|에] ;

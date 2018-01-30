@@ -1,0 +1,15 @@
+#JSGF V1.1
+
+grammar Home;
+# [KR] 앱스 화면을 4X6으로 변경해줘
+
+public <Home> = <Home_106__HomeSettingsAppsGridSettingView>;
+
+<Home_106__HomeSettingsAppsGridSettingView> = 
+    <ChangeGrid>[(로|으로)] (<Home_Change>|<Home_Do_Use>|<Home_Do_Apply>) ;
+
+<ChangeGrid> = /1/ <param_grid> | /4/ <param_grid_anapho> | /4/ <param_grid_anapho_whole> ;
+
+<param_grid> = $HOME_GRIDOPTION_HOMESETTINGSCHANGEAPPSGRID;
+<param_grid_anapho> = $HOME_GRIDANAPHO_HOMESETTINGSCHANGEAPPSGRID;
+<param_grid_anapho_whole> = $HOME_GRIDANAPHO_HOMESETTINGSCHANGEAPPSGRID_WHOLE;

@@ -1,0 +1,11 @@
+#JSGF V1.1
+
+grammar Home;
+# [KR] 홈화면에서 하단으로 스와이프하면 앱스화면 보이게 해줘
+
+public <Home> = <Home_116__HomePageEditView>;
+
+<Home_116__HomePageEditView> = 
+    ([<AtHome>] [$HOME_DOWNWARDS (로|으로)] <DoSwipe> $HOME_APPS [화면|스크린] [을|를] <Home_a_Show> $DO);
+
+<DoSwipe> = (스와이프하면|내리면);

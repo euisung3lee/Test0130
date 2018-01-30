@@ -1,0 +1,16 @@
+# 앱스 화면에 있는 교통 폴더에 카카오버스 앱을 추가해줘
+
+grammar Home;
+public <Home> = <Home_39__Home>;
+
+<Home_39__Home> =
+    ( <AtApps> <ToTheFolder> <Home_Param_AppName_AppsFolderAddIcon>[<Home_Application>][을|를] <Common_Add> ) |
+    ( <AtApps> <ToTheFolder> <Common_Add> <Home_Param_AppName_AppsFolderAddIcon>[<Home_Application>][을|를] ) |
+    ( <AtApps> <Common_Add> <ToTheFolder> <Home_Param_AppName_AppsFolderAddIcon>[<Home_Application>][을|를] ) |
+    ( <AtApps> <Home_Param_AppName_AppsFolderAddIcon>[<Home_Application>][을|를] <ToTheFolder> <Common_Add> ) |
+    ( <AtApps> <Home_Param_AppName_AppsFolderAddIcon>[<Home_Application>][을|를] <Common_Add> <ToTheFolder> ) |
+    ( <Common_Add> <AtApps> <Home_Param_AppName_AppsFolderAddIcon>[<Home_Application>][을|를] <ToTheFolder> ) |
+    ( <Common_Add> <AtApps> <ToTheFolder> <Home_Param_AppName_AppsFolderAddIcon>[<Home_Application>][을|를] ) ;
+
+<ToTheFolder> = ( <Home_Folder> <Home_Param_FolderName_AppsFolderView>
+                | <Home_Param_FolderName_AppsFolderView> <Home_Folder> )[안|속|이너|인|인사이드](로|으로|에|에다|에다가);

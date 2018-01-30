@@ -1,0 +1,12 @@
+# Arrange 2nd page of home screen as the last /홈 화면에서 2번째 페이지를 마지막에 배치해줘
+
+grammar Home;
+public <Home> = <Home_57__Home>;
+
+<Home_57__Home> = 
+    ( <ThatPage> <ToThePage> <Home_Move> ) ;
+
+<ThatPage> = ( <Home_Param_Page_HomePageChangeOrder> [번째|째] | <Home_Param_PageMovePageAnapho_HomePageChangeOrder> ) <Home_Space> (를|을) ;
+#<ThatPage> = ( <Home_Param_Page_HomePageChangeOrder> [번째|째] ) <Home_Space> (를|을) ;
+
+<ToThePage> = <Home_Param_MoveLocation_HomePageChangeOrder> [번째|째] [<Home_Space>] (로|으로|에|에다|에다가) ;

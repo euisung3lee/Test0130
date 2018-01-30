@@ -1,0 +1,7 @@
+# 페이스북 앱 절전 상태로 바꿔줘 / Put Facebook app to sleep mode
+
+grammar Home;
+public <Home> = <Home_17__AppsSingleAppPutToSleepPopUp>;
+
+<Home_17__AppsSingleAppPutToSleepPopUp> = 
+    [<Home_Param_AppAnapho_AppsSingleAppPutToSleepPopUp>] [<Home_Application>][(을|를)] <Home_SleepMode>[로|으로] <Common_Change> ;

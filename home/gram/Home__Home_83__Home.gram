@@ -1,0 +1,9 @@
+#JSGF V1.1
+
+grammar Home;
+# Delete weather widget from Home screen/ 홈 화면에서 날씨 위젯 삭제해줘
+
+public <Home> = <Home_83__Home>;
+
+<Home_83__Home> = 
+    ( <Home_Param_WidgetName_HomeWidgetSelectedView> <Home_Widget> [(을|를)] <Common_Remove> ) ;

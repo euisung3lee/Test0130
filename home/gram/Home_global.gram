@@ -1,0 +1,297 @@
+#JSGF V1.1
+grammar Home_global;
+
+###############################################################################
+# App Name
+###############################################################################
+
+<Home_Conflict_HomeApps> = <ConflictHome> | <ConflictApps> ;
+<ConflictHome> = $HOME_CONFLICTCONCEPTWORD_HOME [의|에|에서][<Home_Exists>] ;
+<ConflictApps> = $HOME_CONFLICTCONCEPTWORD_APPS [의|에|에서][<Home_Exists>] ;
+
+<AtHome> = ( (<Home_Home>[의|에|에서][<Home_Exists>]) | (<Home_Home>[의|에|에서][<Home_Space>[의|에|에서]][<Home_Exists>]) ) ;
+<ToHome> = ( <Home_Home>[<Home_Space>] (의|에|에서|에다|에다가|로|으로) ) ;
+<FromHome> = ( <Home_Home>[에서|으로부터][<Home_Space>[에서|로부터|으로부터]] ) ;
+
+<AtApps> = ( (<Home_Apps>[의|에|에서][<Home_Exists>]) | (<Home_Apps>[의|에|에서][<Home_Space>[의|에|에서]][<Home_Exists>]) ) ;
+<FromApps> = ( <Home_Apps>[에서|으로부터][<Home_Space>[에서|로부터|으로부터]] ) ;
+
+
+###############################################################################
+# Common
+###############################################################################
+
+<Common_Add> = $DO_ADD;
+<Common_Change> = $DO_CHANGE;
+<Common_Delete> = $DO_DELETE;
+<Common_Do> = $DO;
+<Common_Hide> = $DO_HIDE;
+<Common_Make> = $DO_MAKE;
+<Common_Open> = $DO_OPEN;
+<Common_Remove> = $DO_DELETE;
+<Common_Save> = $DO_SAVE;
+<Common_Set> = $DO_SET;
+<Common_Update> = $DO_UPDATE;
+
+#변경해줘
+<home_v_change> = $HOME_DO_MODIFY | $HOME_DO_CHANGE | $HOME_DO_EDIT ;
+
+#설정해줘
+<home_v_set> = $DO_SET ;
+
+#보여줘
+<home_v_show> = $HOME_DO_SHOW | $HOME_DO_DISPLAY | $DO_SHOW;
+
+#들어가줘
+<home_v_enter> = $DO_ENTER | $DO_GO;
+
+###############################################################################
+# suffix
+###############################################################################
+
+<Home_AddOn> = 달린|달려있는|붙어있는|붙은;
+<Home_Empty> = 빈|비어진|비인|없는|띄어진|띠어진;
+<Home_Exists> = 있는|안에있는|위치하는|설치되어있는|존재하는|깔려있는|넣어진|인스톨되어있는|생성한|생성되어있는|생성된|추가한|추가된|추가되어있는;
+<Home_In> = (의|에|안에|내부에) [<Home_Exists>];
+<Home_Hidden> = 숨겨진|숨켜진|숨긴|숨킨|숨은|히든|안 보이는|숨김|숨겨놨던|숨겨놓은|안보이게 해놓은|안보이게 한|숨기기 해놓은|숨기기 한|숨기기 했던|숨겼던|숨김 처리한|숨기기 처리한|숨김 했던|숨기기;
+<Home_Search> = (검색한|검색된|검색해|검색해서|검색 결과의|찾은|찾아진|찾아|찾아서);
+<Home_Custom> = 이전|지난번|원래|기존|커스텀|[내] 맘대로|[내] 마음대로|(사용자가|내가)(설정한|정한);
+<Home_a_Show> = 나오게|나타나게|보이게|보이도록|보일 수 있게|보여지게|볼 수 있게|표시하게|표시되게|보게|볼 수 있도록;
+<Home_a_DoNotShow> = 안 보이게|안 보여지게|안 볼 수 있게|표시 안 하게|표시 안되게|표시하지 않도록|표시되지 않도록;
+<Home_a_Use> = 쓸 수 있도록|쓰도록|쓰게|사용할 수 있도록|사용하도록|사용하게|이용하도록|이용할 수 있도록|이용하게;
+<Home_Bigger> = [더](크게|커다랗게|커보이게);
+<Home_Smaller> = [더](작게|조그맣게|작아보이게);
+<Home_Takeout> = 꺼내|빼(줘|줄래|주세요|주겠니|주시오|봐라|보아라|주렴|고싶어);
+
+
+###############################################################################
+# parameter
+###############################################################################
+
+<Home_Param_AppName_AppsFolderAddIcon> = $HOME_APPNAME_APPSFOLDERADDICON;
+<Home_Param_AppName_AppsFolderAddIconSearchResult> = $HOME_APPNAME_APPSFOLDERADDICONSEARCHRESULT;
+<Home_Param_AppName_AppsFolderRemoveIcon> = $HOME_APPNAME_APPSFOLDERREMOVEICON;
+<Home_Param_AppName_AppsSingleAppMakeShortcut> = $HOME_APPNAME_APPSSINGLEAPPMAKESHORTCUT;
+<Home_Param_AppName_AppsSingleAppMove> = $HOME_APPNAME_APPSSINGLEAPPMOVE;
+<Home_Param_AppName_AppsSingleAppSelectedView> = $HOME_APPNAME_APPSSINGLEAPPSELECTEDVIEW;
+<Home_Param_AppName_HomeFolderAddIcon> = $HOME_APPNAME_HOMEFOLDERADDICON;
+<Home_Param_AppName_HomeFolderAddIconSearchViewResult> = $HOME_APPNAME_HOMEFOLDERADDICONSEARCHVIEWRESULT;
+<Home_Param_AppName_HomeFolderRemoveIcon> = $HOME_APPNAME_HOMEFOLDERREMOVEICON;
+<Home_Param_AppName_HomeSettingsHideApps> = $HOME_APPNAME_HOMESETTINGSHIDEAPPS;
+<Home_Param_AppName_HomeSettingsUnHideApps> = $HOME_APPNAME_HOMESETTINGSUNHIDEAPPS;
+<Home_Param_AppName_HomeSingleAppMove> = $HOME_APPNAME_HOMESINGLEAPPMOVE;
+<Home_Param_AppName_HomeSingleAppSelectedView> = $HOME_APPNAME_HOMESINGLEAPPSELECTEDVIEW;
+<Home_Param_AppName_HomeSettingsBadgeSingleAppEnable> = $HOME_APPNAME_HOMESETTINGSBADGESINGLEAPPENABLE;
+<Home_Param_AppName_HomeSettingsBadgeSingleAppDisable> = $HOME_APPNAME_HOMESETTINGSBADGESINGLEAPPDISABLE;
+<Home_Param_Direction_AppsFolderMove> = $HOME_DETAILLOCATION_APPSFOLDERMOVE;
+<Home_Param_Direction_AppsFolderRemoveIcon> = $HOME_DETAILLOCATION_APPSFOLDERREMOVEICON;
+<Home_Param_Direction_AppsSingleAppMove> = $HOME_DETAILLOCATION_APPSSINGLEAPPMOVE;
+<Home_Param_Direction_HomeFolderMove> = $HOME_DETAILLOCATION_HOMEFOLDERMOVE;
+<Home_Param_Direction_HomeFolderRemoveIcon> = $HOME_DETAILLOCATION_HOMEFOLDERREMOVEICON;
+<Home_Param_Direction_HomeSingleAppMove> = $HOME_DETAILLOCATION_HOMESINGLEAPPMOVE;
+<Home_Param_Direction_HomeWidgetMove> = $HOME_DETAILLOCATION_HOMEWIDGETMOVE;
+<Home_Param_FolderName_AppsFolderMove> = $HOME_FOLDERNAME_APPSFOLDERMOVE;
+<Home_Param_FolderName_AppsFolderSelectedView> = $HOME_FOLDERNAME_APPSFOLDERSELECTEDVIEW;
+<Home_Param_FolderName_AppsFolderView> = $HOME_FOLDERNAME_APPSFOLDERVIEW;
+<Home_Param_FolderName_AppsFolderMakeShortcut> = $HOME_FOLDERNAME_APPSFOLDERMAKESHORTCUT;
+<Home_Param_FolderName_HomeFolderMove> = $HOME_FOLDERNAME_HOMEFOLDERMOVE;
+<Home_Param_FolderName_HomeFolderSelectedView> = $HOME_FOLDERNAME_HOMEFOLDERSELECTEDVIEW;
+<Home_Param_FolderName_HomeFolderView> = $HOME_FOLDERNAME_HOMEFOLDERVIEW;
+<Home_Param_GridOption_HomeSettingsChangeAppsGrid> = $HOME_GRIDOPTION_HOMESETTINGSCHANGEAPPSGRID;
+<Home_Param_GridOption_HomeSettingsChangeGrid> = $HOME_GRIDOPTION_HOMESETTINGSCHANGEGRID;
+<Home_Param_GridOption_AppsChangeGrid> = $HOME_GRIDOPTION_APPSCHANGEGRID;
+<Home_Param_MoveLocation_HomePageChangeOrder> = $HOME_MOVELOCATION_HOMEPAGECHANGEORDER;
+<Home_Param_Page_AppsFolderMove> = $HOME_PAGE_APPSFOLDERMOVE;
+<Home_Param_Page_AppsFolderPageMove> = $HOME_PAGE_APPSFOLDERPAGEMOVE;
+<Home_Param_Page_AppsFolderRemoveIcon> = $HOME_PAGE_APPSFOLDERREMOVEICON;
+<Home_Param_Page_AppsPageMove> = $HOME_PAGE_APPSPAGEMOVE;
+<Home_Param_Page_AppsSingleAppMove> = $HOME_PAGE_APPSSINGLEAPPMOVE;
+<Home_Param_Page_HomeFolderMove> = $HOME_PAGE_HOMEFOLDERMOVE;
+<Home_Param_Page_HomeFolderPageMove> = $HOME_PAGE_HOMEFOLDERPAGEMOVE;
+<Home_Param_Page_HomeFolderRemoveIcon> = $HOME_PAGE_HOMEFOLDERREMOVEICON;
+<Home_Param_Page_HomePageAutoReArrangePopup> = $HOME_PAGE_HOMEPAGEAUTOREARRANGEPOPUP;
+<Home_Param_Page_HomePageAutoReArrangeToTop> = $HOME_PAGE_HOMEPAGEAUTOREARRANGETOTOP;
+<Home_Param_Page_HomePageAutoReArrangeToBottom> = $HOME_PAGE_HOMEPAGEAUTOREARRANGETOBOTTOM;
+<Home_Param_Page_HomePageChangeOrder> = $HOME_PAGE_HOMEPAGECHANGEORDER;
+<Home_Param_Page_HomePageMove> = $HOME_PAGE_HOMEPAGEMOVE;
+<Home_Param_Page_HomePageRemovePopup> = $HOME_PAGE_HOMEPAGEREMOVEPOPUP;
+<Home_Param_Page_HomePageSetMainPage> = $HOME_PAGE_HOMEPAGESETMAINPAGE;
+<Home_Param_Page_HomeSingleAppMove> = $HOME_PAGE_HOMESINGLEAPPMOVE;
+<Home_Param_Page_HomeWidgetMove> = $HOME_PAGE_HOMEWIDGETMOVE;
+<Home_Param_SelectedAll_AppsFolderAddIcon> = $HOME_SELECTEDALL_ALL_APPS | $HOME_SELECTEDALL_PART_APPS;
+<Home_Param_SelectedAll_HomeFolderAddIcon> = $HOME_SELECTEDALL_ALL_HOME | $HOME_SELECTEDALL_PART_HOME;
+<Home_Param_Text_AppsFolderEditName> = $HOME_TEXT_APPSFOLDEREDITNAME;
+<Home_Param_Text_AppsFolderEditName_Simple> = $HOME_TEXT_APPSFOLDEREDITNAMESIMPLE;
+<Home_Param_Text_HomeFolderEditName> = $HOME_TEXT_HOMEFOLDEREDITNAME;
+<Home_Param_Text_HomeFolderEditName_Simple> = $HOME_TEXT_HOMEFOLDEREDITNAMESIMPLE;
+<Home_Param_Text_AppsFolderAddIconSearchResult> = $HOME_TEXT_APPSFOLDERADDICONSEARCHRESULT;
+<Home_Param_Text_HomeFolderAddIconSearchResult> = $HOME_TEXT_HOMEFOLDERADDICONSEARCHRESULT;
+<Home_Param_Text_HomePageWidgetSearchResult> = $HOME_TEXT_HOMEPAGEWIDGETSEARCHRESULT;
+<Home_Param_WidgetName_HomePageWidgetUninstallPopup> = $HOME_WIDGETNAME_HOMEPAGEWIDGETUNINSTALLPOPUP;
+<Home_Param_WidgetName_HomeWidgetMove> = $HOME_WIDGETNAME_HOMEWIDGETMOVE;
+<Home_Param_WidgetName_HomeWidgetPageMove> = $HOME_WIDGETNAME_HOMEWIDGETPAGEMOVE;
+<Home_Param_WidgetName_HomeWidgetResizeView> = $HOME_WIDGETNAME_HOMEWIDGETRESIZEVIEW;
+<Home_Param_WidgetName_HomeWidgetSelectedView> = $HOME_WIDGETNAME_HOMEWIDGETSELECTEDVIEW;
+<Home_Param_ConflictConceptWord_Home> = $HOME_CONFLICTCONCEPTWORD_HOME;
+<Home_Param_ConflictConceptWord_Apps> = $HOME_CONFLICTCONCEPTWORD_APPS;
+
+<Home_Param_OrdinalNumber_HomeSettingsHideApps> = $HOME_ORDINALNUMBER_HOMESETTINGSHIDEAPPS;
+<Home_Param_OrdinalNumber_HomeSettingsUnHideApps> = $HOME_ORDINALNUMBER_HOMESETTINGSUNHIDEAPPS;
+<Home_Param_OrdinalNumber_HomePageWidgetAdded> = $HOME_ORDINALNUMBER_HOMEPAGEWIDGETADDED;
+<Home_Param_OrdinalNumber_HomeFolderAddIcon> = $HOME_ORDINALNUMBER_HOMEFOLDERADDICON;
+<Home_Param_OrdinalNumber_AppsFolderAddIcon> = $HOME_ORDINALNUMBER_APPSFOLDERADDICON;
+
+<Home_Param_FolderAnapho_AppsFolderAddIconSearchView> = $HOME_FOLDERANAPHO_APPSFOLDERADDICONSEARCHVIEW;
+<Home_Param_SelectedAppAnapho_AppsFolderAddIcon> = $HOME_SELECTEDAPPANAPHO_APPSFOLDERADDICON;
+<Home_Param_FolderMovePageAnapho_AppsFolderMove> = $HOME_FOLDERMOVEPAGEANAPHO_APPSFOLDERMOVE;
+<Home_Param_FolderAnapho_HomeFolderAddIconSearchView> = $HOME_FOLDERANAPHO_HOMEFOLDERADDICONSEARCHVIEW;
+<Home_Param_SelectedAppAnapho_HomeFolderAddIcon> = $HOME_SELECTEDAPPANAPHO_HOMEFOLDERADDICON;
+<Home_Param_WidgetAnapho_SettingsApplicationInfo> = $HOME_WIDGETANAPHO_SETTINGSAPPLICATIONINFO;
+<Home_Param_WidgetMovePageAnapho_HomeWidgetMove> = $HOME_WIDGETMOVEPAGEANAPHO_HOMEWIDGETMOVE;
+<Home_Param_WidgetAnapho_HomeRemoveWidget> = $HOME_WIDGETANAPHO_HOMEREMOVEWIDGET;
+<Home_Param_GridAnapho_HomeSettingsChangeAppsGrid> = $HOME_GRIDANAPHO_HOMESETTINGSCHANGEAPPSGRID;
+<Home_Param_GridAnapho_HomeSettingsChangeGrid> = $HOME_GRIDANAPHO_HOMESETTINGSCHANGEGRID;
+<Home_Param_GridAnapho_AppsChangeGrid> = $HOME_GRIDANAPHO_APPSCHANGEGRID;
+<Home_Param_PageAnapho_HomePageAutoReArrangePopup> = $HOME_PAGEANAPHO_HOMEPAGEAUTOREARRANGEPOPUP;
+<Home_Param_PageLocFolderAnapho_HomePageAutoReArrangeToTop> = $HOME_PAGELOCFOLDERANAPHO_HOMEPAGEAUTOREARRANGETOTOP;
+<Home_Param_PageLocPageAnapho_HomePageAutoReArrangeToTop> = $HOME_PAGELOCPAGEANAPHO_HOMEPAGEAUTOREARRANGETOTOP;
+<Home_Param_PageLocFolderAnapho_HomePageAutoReArrangeToBottom> = $HOME_PAGELOCFOLDERANAPHO_HOMEPAGEAUTOREARRANGETOBOTTOM;
+<Home_Param_PageLocPageAnapho_HomePageAutoReArrangeToBottom> = $HOME_PAGELOCPAGEANAPHO_HOMEPAGEAUTOREARRANGETOBOTTOM;
+<Home_Param_PageLocFolderAnapho_HomePageAutoReArrangePopup> = $HOME_PAGELOCFOLDERANAPHO_HOMEPAGEAUTOREARRANGEPOPUP;
+<Home_Param_PageLocPageAnapho_HomePageAutoReArrangePopup> = $HOME_PAGELOCPAGEANAPHO_HOMEPAGEAUTOREARRANGEPOPUP;
+<Home_Param_PageLocFolderAnapho_HomePageSetMainPage> = $HOME_PAGELOCFOLDERANAPHO_HOMEPAGESETMAINPAGE;
+<Home_Param_PageLocPageAnapho_HomePageSetMainPage> = $HOME_PAGELOCPAGEANAPHO_HOMEPAGESETMAINPAGE;
+<Home_Param_PageMovePageAnapho_HomePageChangeOrder> = $HOME_PAGEMOVEPAGEANAPHO_HOMEPAGECHANGEORDER;
+<Home_Param_AppMoveFolderAnapho_AppsFolderRemoveIcon> = $HOME_APPMOVEFOLDERANAPHO_APPSFOLDERREMOVEICON;
+<Home_Param_AppMovePageAnapho_AppsFolderRemoveIcon> = $HOME_APPMOVEPAGEANAPHO_APPSFOLDERREMOVEICON;
+<Home_Param_TextFolderAnapho_AppsFolderEditName> = $HOME_TEXTFOLDERANAPHO_APPSFOLDEREDITNAME;
+<Home_Param_PageLocFolderAnapho_AppsFolderPageMove> = $HOME_PAGELOCFOLDERANAPHO_APPSFOLDERPAGEMOVE;
+<Home_Param_PageLocPageAnapho_AppsFolderPageMove> = $HOME_PAGELOCPAGEANAPHO_APPSFOLDERPAGEMOVE;
+<Home_Param_AppMoveFolderAnapho_HomeFolderRemoveIcon> = $HOME_APPMOVEFOLDERANAPHO_HOMEFOLDERREMOVEICON;
+<Home_Param_AppMovePageAnapho_HomeFolderRemoveIcon> = $HOME_APPMOVEPAGEANAPHO_HOMEFOLDERREMOVEICON;
+<Home_Param_TextFolderAnapho_HomeFolderEditName> = $HOME_TEXTFOLDERANAPHO_HOMEFOLDEREDITNAME;
+<Home_Param_PageLocFolderAnapho_HomeFolderPageMove> = $HOME_PAGELOCFOLDERANAPHO_HOMEFOLDERPAGEMOVE;
+<Home_Param_PageLocPageAnapho_HomeFolderPageMove> = $HOME_PAGELOCPAGEANAPHO_HOMEFOLDERPAGEMOVE;
+<Home_Param_AppAnapho_AppsSingleAppAddToSecureFolder> = $HOME_APPANAPHO_APPSSINGLEAPPADDTOSECUREFOLDER;
+<Home_Param_AppAnapho_AppsSingleAppPutToSleepPopUp> = $HOME_APPANAPHO_APPSSINGLEAPPPUTTOSLEEPPOPUP;
+<Home_Param_AppAnapho_SettingsApplicationInfo> = $HOME_APPANAPHO_SETTINGSAPPLICATIONINFO;
+<Home_Param_FolderAnapho_AppsFolderRemovePopup> = $HOME_FOLDERANAPHO_APPSFOLDERREMOVEPOPUP;
+<Home_Param_FolderAnapho_AppsFolderClearBadge> = $HOME_FOLDERANAPHO_APPSFOLDERCLEARBADGE;
+<Home_Param_FolderFolderAnapho_AppsFolderSelectedView> = $HOME_FOLDERFOLDERANAPHO_APPSFOLDERSELECTEDVIEW;
+<Home_Param_FolderAnapho_HomeFolderClearBadge> = $HOME_FOLDERANAPHO_HOMEFOLDERCLEARBADGE;
+<Home_Param_FolderAnapho_HomeFolderRemoveShortcut> = $HOME_FOLDERANAPHO_HOMEFOLDERREMOVESHORTCUT;
+<Home_Param_FolderFolderAnapho_HomeFolderSelectedView> = $HOME_FOLDERFOLDERANAPHO_HOMEFOLDERSELECTEDVIEW;
+<Home_Param_FolderMovePageAnapho_HomeFolderMove> = $HOME_FOLDERMOVEPAGEANAPHO_HOMEFOLDERMOVE;
+<Home_Param_AppAppAnapho_HomeSettingsUnHideApps> = $HOME_APPAPPANAPHO_HOMESETTINGSUNHIDEAPPS;
+<Home_Param_AppFolderAnapho_HomeSettingsUnHideApps> = $HOME_APPFOLDERANAPHO_HOMESETTINGSUNHIDEAPPS;
+<Home_Param_AppAppAnapho_HomeSettingsHideApps> = $HOME_APPAPPANAPHO_HOMESETTINGSHIDEAPPS;
+<Home_Param_AppFolderAnapho_HomeSettingsHideApps> = $HOME_APPFOLDERANAPHO_HOMESETTINGSHIDEAPPS;
+<Home_Param_WidgetAnapho_HomePageWidgetAdded> = $HOME_WIDGETANAPHO_HOMEPAGEWIDGETADDED;
+<Home_Param_PageLocFolderAnapho_HomePageRemovePopup> = $HOME_PAGELOCFOLDERANAPHO_HOMEPAGEREMOVEPOPUP;
+<Home_Param_PageLocPageAnapho_HomePageRemovePopup> = $HOME_PAGELOCPAGEANAPHO_HOMEPAGEREMOVEPOPUP;
+<Home_Param_AppAppAnapho_AppsFolderAddIcon> = $HOME_APPAPPANAPHO_APPSFOLDERADDICON;
+<Home_Param_AppFolderAnapho_AppsFolderAddIcon> = $HOME_APPFOLDERANAPHO_APPSFOLDERADDICON;
+<Home_Param_FolderAnapho_AppsFolderAddIconView> = $HOME_FOLDERANAPHO_APPSFOLDERADDICONVIEW;
+<Home_Param_FolderFolderAnapho_AppsFolderView> = $HOME_FOLDERFOLDERANAPHO_APPSFOLDERVIEW;
+<Home_Param_AppAppAnapho_HomeFolderAddIcon> = $HOME_APPAPPANAPHO_HOMEFOLDERADDICON;
+<Home_Param_AppFolderAnapho_HomeFolderAddIcon> = $HOME_APPFOLDERANAPHO_HOMEFOLDERADDICON;
+<Home_Param_FolderAnapho_HomeFolderAddIconView> = $HOME_FOLDERANAPHO_HOMEFOLDERADDICONVIEW;
+<Home_Param_FolderFolderAnapho_HomeFolderView> = $HOME_FOLDERFOLDERANAPHO_HOMEFOLDERVIEW;
+<Home_Param_AppAnapho_AppsSingleAppClearBadge> = $HOME_APPANAPHO_APPSSINGLEAPPCLEARBADGE;
+<Home_Param_AppAnapho_HomeSingleAppClearBadge> = $HOME_APPANAPHO_HOMESINGLEAPPCLEARBADGE;
+<Home_Param_PageLocPageAnapho_AppsPageMove> = $HOME_PAGELOCPAGEANAPHO_APPSPAGEMOVE;
+<Home_Param_PageLocFolderAnapho_AppsPageMove> = $HOME_PAGELOCFOLDERANAPHO_APPSPAGEMOVE;
+<Home_Param_AppAppAnapho_AppsSingleAppMakeShortcut> = $HOME_APPAPPANAPHO_APPSSINGLEAPPMAKESHORTCUT;
+<Home_Param_AppFolderAnapho_AppsSingleAppMakeShortcut> = $HOME_APPFOLDERANAPHO_APPSSINGLEAPPMAKESHORTCUT;
+<Home_Param_AppAppAnapho_AppsSingleAppSelectedView> = $HOME_APPAPPANAPHO_APPSSINGLEAPPSELECTEDVIEW;
+<Home_Param_AppFolderAnapho_AppsSingleAppSelectedView> = $HOME_APPFOLDERANAPHO_APPSSINGLEAPPSELECTEDVIEW;
+<Home_Param_AppAnapho_AppsSingleAppUninstallDisablePopUp> = $HOME_APPANAPHO_APPSSINGLEAPPUNINSTALLDISABLEPOPUP;
+<Home_Param_AppMoveFolderAnapho_AppsSingleAppMove> = $HOME_APPMOVEFOLDERANAPHO_APPSSINGLEAPPMOVE;
+<Home_Param_AppMovePageAnapho_AppsSingleAppMove> = $HOME_APPMOVEPAGEANAPHO_APPSSINGLEAPPMOVE;
+<Home_Param_AppAppAnapho_HomeSingleAppSelectedView> = $HOME_APPAPPANAPHO_HOMESINGLEAPPSELECTEDVIEW;
+<Home_Param_AppFolderAnapho_HomeSingleAppSelectedView> = $HOME_APPFOLDERANAPHO_HOMESINGLEAPPSELECTEDVIEW;
+<Home_Param_AppAnapho_HomeSingleAppRemove> = $HOME_APPANAPHO_HOMESINGLEAPPREMOVE;
+<Home_Param_AppMoveFolderAnapho_HomeSingleAppMove> = $HOME_APPMOVEFOLDERANAPHO_HOMESINGLEAPPMOVE;
+<Home_Param_AppMovePageAnapho_HomeSingleAppMove> = $HOME_APPMOVEPAGEANAPHO_HOMESINGLEAPPMOVE;
+<Home_Param_PageLocPageAnapho_HomePageMove> = $HOME_PAGELOCPAGEANAPHO_HOMEPAGEMOVE;
+<Home_Param_PageLocFolderAnapho_HomePageMove> = $HOME_PAGELOCFOLDERANAPHO_HOMEPAGEMOVE;
+<Home_Param_FolderAnapho_HomeFolderChangeBackgroundColorSelectView> = $HOME_FOLDERANAPHO_APPSFOLDERCHANGEBACKGROUNDCOLORSELECTVIEW;
+<Home_Param_Opacity_HomeFolderBackgroundOpacityChanged> = $HOME_OPACITY_HOMEFOLDERBACKGROUNDOPACITYCHANGED;
+
+<Home_Anaphora> = $HOME_ANAPHORA;
+<Home_Alphabetical> = $HOME_ALPHABETICAL;
+<Home_Apps> = $HOME_APPS;
+<Home_Application> = $HOME_APPLICATION;
+<Home_Background> = $HOME_BACKGROUND;
+<Home_BottomPosition> = $HOME_DOWNWARDS;
+<Home_Change> = $HOME_DO_CHANGE;
+<Home_DoNotShow> = $HOME_DO_NOT_SHOW;
+<Home_DoAddorMake_sth> = $HOME_DO_ADD_OR_MAKE_STH;
+<Home_DoAdd_txt> = $HOME_DO_ADD_TXT;
+<Home_Display> = $HOME_DO_DISPLAY;
+<Home_Edit> = $HOME_DO_EDIT;
+<Home_Go> = $HOME_DO_GO;
+<Home_Find> = $HOME_DO_FIND;
+<Home_Have> = $HOME_HAVE;
+<Home_List> = $HOME_LIST;
+<Home_Modify> = $HOME_DO_MODIFY;
+<Home_Move> = $HOME_DO_MOVE;
+<Home_Off> = $HOME_DO_OFF;
+<Home_On> = $HOME_DO_ON;
+<Home_SelectAll> = <Home_All> | $HOME_SELECT_ALL;
+<Home_SelectPart> = $HOME_SELECT_PART;
+<Home_Show> = $HOME_DO_SHOW | <Home_Display>;
+<Home_SizeUp> = $HOME_DO_SIZEUP;
+<Home_SizeDown> = $HOME_DO_SIZEDOWN;
+<Home_Title> = $HOME_TITLE;
+<Home_TopPosition> = $HOME_UPWARDS;
+<Home_WidgetName> = $HOME_WIDGETNAME;
+<Home_v_Lock> = $HOME_DO_LOCK;
+<Home_v_UnLock> = $HOME_DO_UNLOCK;
+<Home_Do_Use> = $HOME_DO_USE;
+<Home_Do_Apply> = $HOME_DO_APPLY;
+<Home_Do_Bring> = $HOME_DO_BRING;
+
+
+###############################################################################
+# Global keyword
+###############################################################################
+
+<Home_All> = 전체|모든;
+<Home_App> = 앱 | 어플 | 어플리케이션 | 아이콘 | 아이템;
+<Home_AppInfo> = 정보|속성[내용]|내용|세부[내용]|인포|인포메이션;
+<Home_Bedge> = (배지|뱃지|빼지|bedge|badge|알람|알림)[카운트|숫자];
+<Home_Color> = 색|색깔|색상|색조|색채|톤|칼라|컬러;
+<Home_ContactUs> = 문의하기|문의|도움말|도움|컨택어스;
+<Home_Folder> = 폴더|Folder;
+<Home_Grid> = 배열|배치|구성|그리드|비율;
+<Home_Home> = ( /5/ 홈| /2/ 홈화면| /2/ 홈 화면| /2/ 홈스크린| /1/ 바탕화면 );
+<Home_Mainpage> = (메인|디폴트|기본|주) <Home_Space>;
+<Home_Name> = 이름|name|네임;
+<Home_New> = 새|신규|새로운|신규의|뉴;
+<Home_Order> = 순서|모드|순|오더|올더;
+<Home_Remove> = (<Common_Delete>|<Common_Hide>|없에줘|없애줘);
+<Home_Setting> = 설정|세팅|셋팅;
+<Home_SearchResult> = (검색|찾은) (결과|내용|기록|히스토리);
+<Home_Secure> = (시큐어|씨큐어|보안|비밀|secure|안전한|안전)[모드|상태];
+<Home_Sort> = 정렬|정리|쏘트|쏘팅;
+<Home_Shortcut> = 숏컷|바로가기|아이콘;
+<Home_SleepMode> = [배터리|베터리|밧데리|빳데리|빠떼리][초](절전|절약|아끼는|아낄수있는|슬립|슬리프)[모드|상태|스테이트];
+<Home_Size> = 사이즈|싸이즈|크기|그리드|넓이|면적;
+<Home_Space> = $HOME_SPACE;
+<Home_Unhide> = 숨김 해제;
+<Home_Uninstall> = 언인스톨|설치해제|설치취소|설치삭제;
+<Home_Word> = 단어|말|글자;
+<Home_Widget> = 위젯|widget;
+<Home_Version> = 버전|버젼;
+<Home_TouchWiz> = 터치위즈|터치 위즈;
+<Home_Opicity> = 투명도|투명값|투명|Opacity;
+
+<please> = 
+    /1/
+    (
+        빅스비 | bixby | 한번 | 좀 | 얼른 | 빨리 | 바로 | 곧바로 | 당장 | 딱 | 일단
+        | 냉큼 | 지금 | 즉시 | 어서 | 재빨리 | 잽싸게 | 재빠르게 
+        | 반드시 | 꼭 | 제발 | 플리즈 | please | 부디 
+        | 빨리 좀 | 바로 좀 | 제발 좀 | 살짝 | 빨랑 | 야
+    ) | /10/  ;

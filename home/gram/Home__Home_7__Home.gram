@@ -1,0 +1,12 @@
+# "페이스북"의 앱 정보를 보여줘 / Show App info of "Facebook"
+
+grammar Home;
+public <Home> = <Home_7__Home>;
+
+<Home_7__Home> = 
+    ( <AtHome> <Home_Param_AppName_HomeSingleAppSelectedView>[<Home_Application>][의|에] <Home_AppInfo>[을|를] <Home_Show> ) |
+    ( <Home_Show> <AtHome> <Home_Param_AppName_HomeSingleAppSelectedView>[<Home_Application>][의|에] <Home_AppInfo>[을|를] ) |
+    ( <Home_Show> <AtHome> <Home_AppInfo>[을|를] <Home_Param_AppName_HomeSingleAppSelectedView>[<Home_Application>][의|에] ) |
+    ( <AtHome> <Home_AppInfo>[을|를] <Home_Show> <Home_Param_AppName_HomeSingleAppSelectedView>[<Home_Application>][의|에] ) |
+    ( <Home_Param_AppName_HomeSingleAppSelectedView>[<Home_Application>][의|에] <Home_Show> <AtHome> <Home_AppInfo>[을|를] ) |
+    ( <Home_Param_AppName_HomeSingleAppSelectedView>[<Home_Application>][의|에] <AtHome> <Home_AppInfo>[을|를] <Home_Show> ) ;

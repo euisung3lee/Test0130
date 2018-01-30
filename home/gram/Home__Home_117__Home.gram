@@ -1,0 +1,16 @@
+#JSGF V1.1
+
+grammar Home;
+# 홈 화면에 있는 교통폴더 투명도 20으로 설정해줘
+
+public <Home> = <Home_117__Home>;
+
+<Home_117__Home> = 
+    # [홈에서] 교통 [이라는] 폴더
+    [<AtHome>]<Home_Param_FolderName_HomeFolderView>[라는|이라는] <Home_Folder>[의|에]
+    # 투명도를 
+    <Home_Opicity> [을|를]
+    # 20으로 
+    <Home_Param_Opacity_HomeFolderBackgroundOpacityChanged> [로|으로]
+    # 설정해줘
+    (<Common_Do>|<Home_Change>|<Common_Save>);

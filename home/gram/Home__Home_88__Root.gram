@@ -1,0 +1,14 @@
+#JSGF V1.1
+
+grammar Home;
+# Delete the entire "SNS" folder app /"SNS" 폴더 전체 앱 삭제해줘
+
+public <Home> = <Home_88>;
+
+<Home_88> = 
+    ( [<Home_Home>[의|에|에서]] <InTheFolder> <Home_All> <Home_Apps> [(을|를)] (<Common_Delete>|((언인스톨|설치해제|설치취소|설치삭제)[<Common_Do>])) ) |
+    ( [<Home_Home>[의|에|에서]] <Home_All> <Home_Apps> [(을|를)] (<Common_Delete>|((언인스톨|설치해제|설치취소|설치삭제)[<Common_Do>])) <InTheFolder> );
+
+<InTheFolder> = 
+    ( <Home_Param_FolderName_HomeFolderSelectedView> <Home_Folder> <Home_In> ) |
+    ( <Home_Folder> <Home_Param_FolderName_HomeFolderSelectedView> <Home_In> );

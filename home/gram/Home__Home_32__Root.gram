@@ -1,0 +1,14 @@
+# Change background color of Game folder in home /홈 화면에 있는 게임 폴더의 배경색 바꿔줘
+
+grammar Home;
+public <Home> = <Home_32>;
+
+<Home_32> =
+    ( <AtHome> <FolderName> [<Home_Background>]<Home_Color>[을|를] <Home_Change> ) |
+    ( <Home_Change> <AtHome> <FolderName> [<Home_Background>]<Home_Color>[을|를] ) |
+    ( <Home_Change> [<Home_Background>]<Home_Color>[을|를] <AtHome> <FolderName> ) |
+    ( <AtHome> <Home_Change> <FolderName> [<Home_Background>]<Home_Color>[을|를] ) |
+    ( <AtHome> <Home_Change> [<Home_Background>]<Home_Color>[을|를] <FolderName> ) |
+    ( [<Home_Background>]<Home_Color>[을|를] <Home_Change> <AtHome> <FolderName> ) ;
+
+<FolderName> = (<Home_Folder> <Home_Param_FolderName_HomeFolderView> | <Home_Param_FolderName_HomeFolderView> <Home_Folder>) [의|에|에서];

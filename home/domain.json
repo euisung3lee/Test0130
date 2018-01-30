@@ -1,0 +1,17 @@
+{
+    "expand": {
+        "n_utterance": 10000
+    },
+    "tokenize": {
+        "append_wut_data_to_train_mixed": ["add", "icm", "stm"]
+    },
+    "preprocess-icm": {
+    },
+    "preprocess-stm": {
+        "use_train_mixed_add": true
+    },
+    "train-icm": {
+    },
+    "train-stm": {
+    }
+}

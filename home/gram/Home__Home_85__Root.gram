@@ -1,0 +1,10 @@
+#JSGF V1.1
+
+grammar Home;
+# Show app information of weather widget /날씨 위젯의 앱 정보 보여줘
+
+public <Home> = <Home_85>;
+
+<Home_85> = 
+    ( [<AtHome>] <Home_Param_WidgetName_HomeWidgetSelectedView> <Home_Widget>[의|에] [<Home_Application>] <Home_AppInfo>[(을|를)] <Home_Show> ) | 
+    ( [<Home_Application>] <Home_AppInfo>[(을|를)] <Home_Show> [<AtHome>] <Home_Param_WidgetName_HomeWidgetSelectedView> <Home_Widget>[의|에] );

@@ -1,0 +1,18 @@
+# 앱스 화면에 있는 교통 폴더에서 카카오버스 앱을 꺼내줘
+
+grammar Home;
+public <Home> = <Home_40__AppsFolderView>;
+
+<Home_40__AppsFolderView> = 
+    ( <FromTheFolder> <AppName> <Home_Takeout> ) |
+    ( <Home_Takeout> <FromTheFolder> <AppName> ) |
+    ( <Home_Takeout> <AppName> <FromTheFolder> ) |
+    ( <AppName> <Home_Takeout> <FromTheFolder> ) |
+    ( <FromTheFolder> <Home_Takeout> <AppName> ) ;
+
+<FromTheFolder> = ( <FolderFolder> <Home_Folder> ) [안|속|이너|인|인사이드] (에|의|에서) [<Home_Exists>];
+
+#<FolderFolder> = /1/ <Home_Param_FolderName_AppsFolderView> | /4/ <Home_Param_FolderFolderAnapho_AppsFolderView> ;
+<FolderFolder> = <Home_Param_AppMoveFolderAnapho_AppsFolderRemoveIcon> ;
+
+<AppName> = ( <Home_Application> <Home_Param_AppName_AppsFolderRemoveIcon> | <Home_Param_AppName_AppsFolderRemoveIcon>[<Home_Application>] ) [을|를];

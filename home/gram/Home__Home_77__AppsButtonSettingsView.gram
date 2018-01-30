@@ -1,0 +1,7 @@
+# Apps 버튼 비활성화시켜줘
+
+grammar Home;
+public <Home> = <Home_77__AppsButtonSettingsView>;
+
+<Home_77__AppsButtonSettingsView> =
+    <Home_Apps> (버튼|아이콘|단추|메뉴|페이지|화면)[(을|를)] (<Common_Hide>|<Home_Off>);

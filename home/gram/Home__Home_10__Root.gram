@@ -1,0 +1,12 @@
+# "페이스북" 앱 절전 상태로 바꿔줘 / Put "Facebook" app to sleep mode
+
+grammar Home;
+public <Home> = <Home_10>;
+
+<Home_10> = 
+    ( (<Home_Home>[의|에|에서][<Home_Space>[의|에|에서]]) <Home_Param_AppName_HomeSingleAppSelectedView>[<Home_Apps>][(을|를)] <Home_SleepMode>[(로|으로)] <Common_Change> )|
+    ( <Common_Change> (<Home_Home>[의|에|에서][<Home_Space>[의|에|에서]]) <Home_Param_AppName_HomeSingleAppSelectedView>[<Home_Apps>][(을|를)] <Home_SleepMode>[(로|으로)] )|
+    ( <Common_Change> <Home_SleepMode>[(로|으로)] (<Home_Home>[의|에|에서][<Home_Space>[의|에|에서]]) <Home_Param_AppName_HomeSingleAppSelectedView>[<Home_Apps>][(을|를)] )|
+    ( <Home_SleepMode>[(로|으로)] <Common_Change> (<Home_Home>[의|에|에서][<Home_Space>[의|에|에서]]) <Home_Param_AppName_HomeSingleAppSelectedView>[<Home_Apps>][(을|를)] )|
+    ( <Home_SleepMode>[(로|으로)] (<Home_Home>[의|에|에서][<Home_Space>[의|에|에서]]) <Home_Param_AppName_HomeSingleAppSelectedView>[<Home_Apps>][(을|를)] <Common_Change> )|
+    ( (<Home_Home>[의|에|에서][<Home_Space>[의|에|에서]]) <Home_Param_AppName_HomeSingleAppSelectedView>[<Home_Apps>][(을|를)] <Common_Change> <Home_SleepMode>[(로|으로)] );

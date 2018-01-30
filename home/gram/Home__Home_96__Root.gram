@@ -1,0 +1,12 @@
+#JSGF V1.1
+
+grammar Home;
+# Move to Home screen /홈 화면을 보여줘
+
+public <Home> = <Home_96>;
+
+<Home_96> = 
+    ( (<Home_Home>[의|에][<Home_Space>[의|에]]) <Home_Go> ) |
+    ( (<Home_Home>[을|를] | <Home_Home>[의|에][<Home_Space>[을|를]]) <Home_Show> ) |
+    ( <Home_Go> (<Home_Home>[의|에][<Home_Space>[의|에]]) ) |
+    ( <Home_Show> (<Home_Home>[을|를] | <Home_Home>[의|에][<Home_Space>[을|를]]) ) ;

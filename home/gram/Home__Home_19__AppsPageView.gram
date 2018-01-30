@@ -1,0 +1,9 @@
+# 앱스 화면에서 페이스북 아이콘의 뱃지를 삭제해줘 / Remove Badge of Facebook app in Apps screen
+
+grammar Home;
+public <Home> = <Home_19__AppsPageView>;
+
+<Home_19__AppsPageView> = 
+    /6/ ( <Home_Param_AppName_AppsSingleAppSelectedView>[<Home_Application>][(의|에) [<Home_AddOn>]] <Home_Bedge>[(을|를)] <Home_Remove> ) |
+    /1/ ( <Home_Bedge>[(을|를)] <Home_Remove> <Home_Param_AppName_AppsSingleAppSelectedView>[<Home_Application>][(의|에) [<Home_AddOn>]] ) |
+    /2/ ( <Home_Remove> <Home_Param_AppName_AppsSingleAppSelectedView>[<Home_Application>][(의|에) [<Home_AddOn>]] <Home_Bedge>[(을|를)] ) ;

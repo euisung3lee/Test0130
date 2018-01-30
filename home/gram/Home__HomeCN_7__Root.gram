@@ -1,0 +1,11 @@
+#JSGF V1.1
+
+grammar HomeCN_7;
+# 홈 화면에 있는 페이스북 앱 잠금 해제 해줘
+
+public <Home> = <HomeCN_7>;
+
+<HomeCN_7> = 
+    ( <AtHome> <app> <Home_Application> [을|를] <Home_v_UnLock> ) ;
+
+<app> = $HOME_APPNAME_HOMESINGLEAPPSELECTEDVIEW;

@@ -1,0 +1,12 @@
+# Hide Facebook app /페이스북 앱 숨겨줘
+
+grammar Home;
+public <Home> = <Home_79__Home>;
+
+<Home_79__Home> = 
+
+    /10/ ( [<AtHome>] <param_appname> [<Home_Application>][/5/(을|를)|도] (/1/ <Common_Hide> | /10/ 숨겨| /10/ 숨겨줘) ) |
+    /1/  ( [<AtHome>] <param_appname> [<Home_Application>][/5/(을|를)|도] (<Home_DoNotShow>|<Home_a_DoNotShow> <Common_Set>) ) |
+    /2/  ( [<AtHome>] <param_appname> [<Home_Application>][/5/(을|를)|도] <Home_Hidden> (으로|모드|모드로|상태로) <Home_Change> ) ;
+
+<param_appname> = $HOME_APPNAME_HOMESETTINGSHIDEAPPS;

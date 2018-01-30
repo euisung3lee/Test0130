@@ -1,0 +1,16 @@
+# Take Kakaobus app out of Transportation folder to home /홈 화면에 있는 교통 폴더에서 카카오버스 앱 꺼내줘
+
+grammar Home;
+public <Home> = <Home_34>;
+
+<Home_34> =
+    ( <AtHome> <FromTheFolder> <AppName> <Home_Takeout> ) |
+    ( <Home_Takeout> <AtHome> <FromTheFolder> <AppName> ) |
+    ( <Home_Takeout> <AtHome> <AppName> <FromTheFolder> ) |
+    ( <AtHome> <AppName> <Home_Takeout> <FromTheFolder> ) |
+    ( <AtHome> <FromTheFolder> <Home_Takeout> <AppName> ) ;
+
+<FromTheFolder> = ( <Home_Folder> <Home_Param_FolderName_HomeFolderView>
+                | <Home_Param_FolderName_HomeFolderView> <Home_Folder> ) [안|속|이너|인|인사이드] (에|의|에서) [<Home_Exists>];
+				
+<AppName> = ( <Home_Application> <Home_Param_AppName_HomeFolderRemoveIcon> | <Home_Param_AppName_HomeFolderRemoveIcon>[<Home_Application>] ) [을|를];

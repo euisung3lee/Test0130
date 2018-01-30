@@ -1,0 +1,13 @@
+#JSGF V1.1
+
+grammar Home;
+# I want to add weather widget into Home screen /홈 화면에 날씨 위젯을 추가 해줘
+
+public <Home> = <Home_112__HomePageWidgetSearchResult>;
+
+<Home_112__HomePageWidgetSearchResult> = 
+    /3/ ( (<Home_Param_Text_HomePageWidgetSearchResult>|<AddedWidget>) <Home_Widget>[을|를] <Home_DoAddorMake_sth> ) |
+    /1/ ( (<Home_Param_Text_HomePageWidgetSearchResult>|<AddedWidget>) <Home_Widget>[을|를] <Home_Do_Bring> ) ;
+
+<AddedWidget> = <Home_Param_WidgetAnapho_HomePageWidgetAdded> | <Home_Param_OrdinalNumber_HomePageWidgetAdded> ;
+#<AddedWidget> = <Home_Param_OrdinalNumber_HomePageWidgetAdded> ;

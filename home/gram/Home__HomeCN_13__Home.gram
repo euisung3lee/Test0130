@@ -1,0 +1,11 @@
+#JSGF V1.1
+
+grammar HomeCN_13__Home;
+# 홈 화면에 있는 금융 폴더 잠금 해제 해줘
+
+public <Home> = <HomeCN_13__Home>;
+
+<HomeCN_13__Home> = 
+    ( <folder> <Home_Folder> [을|를] <Home_v_UnLock> ) ;
+
+<folder> = $HOME_FOLDERNAME_HOMEFOLDERSELECTEDVIEW;

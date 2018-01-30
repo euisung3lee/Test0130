@@ -1,0 +1,12 @@
+# 페이스북 앱을 삭제해줘 / Delete Facebook
+
+grammar Home;
+public <Home> = <Home_16__AppsPageView>;
+
+<Home_16__AppsPageView> = 
+    ( <AppName> (<Common_Delete> | <Home_Uninstall>[<Common_Do>]) )|
+    ( (<Common_Delete> | <Home_Uninstall>[<Common_Do>]) <AppName> );
+
+<AppName> = 
+    /1/ ( [<Home_Application>] <Home_Param_AppName_AppsSingleAppSelectedView> ) | 
+    /5/ ( <Home_Param_AppName_AppsSingleAppSelectedView> [<Home_Application>] ) [을|를] ;

@@ -1,0 +1,10 @@
+#JSGF V1.1
+
+grammar FillingSlot__HomeFolderView;
+# 폴더 이름을 쇼핑몰로 입력해 줘
+
+public <Home> = <FillingSlot__HomeFolderView>;
+
+<FillingSlot__HomeFolderView> = 
+    ( [[<Home_Folder>[의|에|에서]] <Home_Title>[을|를]] <Home_Param_Text_HomeFolderEditName>(로|으로|라|라고|이라고) (<Home_Change>|<Home_DoAdd_txt>) ) |
+    ( <Home_Param_Text_HomeFolderEditName>(로|으로|라|라고|이라고) [[<Home_Folder>[의|에|에서]] <Home_Title>[을|를]] (<Home_Change>|<Home_DoAdd_txt>) ) ;

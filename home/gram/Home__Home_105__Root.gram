@@ -1,0 +1,9 @@
+#JSGF V1.1
+
+grammar Home;
+#  Change screen of apps to 5X6/ 앱스 화면을 5X7으로 변경해줘
+
+public <Home> = <Home_105>;
+
+<Home_105> = 
+    <Home_Apps>[의|에|에서] [<Home_Space>][(을|를)] <Home_Param_GridOption_AppsChangeGrid>[(로|으로)] <Home_Change> ;

@@ -1,0 +1,14 @@
+# 페이스북 앱 절전 상태로 바꿔줘 / Put Facebook app to sleep mode
+
+grammar Home;
+public <Home> = <Home_17>;
+
+<Home_17> = 
+    ( [<AtApps>] <AppName>[을|를] <Home_SleepMode>[로|으로] <Common_Change> ) |
+    ( <Common_Change> [<AtApps>] <AppName>[을|를] <Home_SleepMode>[로|으로] ) |
+    ( <Common_Change> <Home_SleepMode>[로|으로] [<AtApps>] <AppName>[을|를] ) |
+    ( <Home_SleepMode>[로|으로] <Common_Change> [<AtApps>] <AppName>[을|를] ) ;
+
+<AppName> = 
+    ( <Home_Application> <Home_Param_AppName_AppsSingleAppSelectedView> |
+        <Home_Param_AppName_AppsSingleAppSelectedView>[<Home_Application>] ) ;

@@ -1,0 +1,11 @@
+#JSGF V1.1
+
+grammar HomeCN_12__HomeFolderSelectedView;
+# 홈 화면에 있는 금융 폴더 잠궈줘
+
+public <Home> = <HomeCN_12__HomeFolderSelectedView>;
+
+<HomeCN_12__HomeFolderSelectedView> = 
+    ( [<Home_Folder> [을|를]] <Home_v_Lock> ) ;
+
+<folder> = $HOME_FOLDERNAME_HOMEFOLDERSELECTEDVIEW;

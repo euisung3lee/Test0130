@@ -1,0 +1,9 @@
+#JSGF V1.1
+
+grammar Home;
+
+public <Home> = <Other>;
+
+<Other> = <exp1>;
+
+<exp1> = 검색;

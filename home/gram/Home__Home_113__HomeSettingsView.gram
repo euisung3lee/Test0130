@@ -1,0 +1,14 @@
+#JSGF V1.1
+
+grammar Home;
+# [KR] 터치위즈 홈 버전 보여줘
+
+public <Home> = <Home_113__HomeSettingsView>;
+
+<Home_113__HomeSettingsView> = 
+    # [[터치위즈] 홈[의]] [앱] 버전 정보[을|를] 보여줘
+    ([<Home_TouchWiz> <Home_Home>[의|에|에서]] [앱|엡|어플|애플|에플|애플리케이션|에플리케이션] <Home_Version> <Home_AppInfo>[을|를] <home_v_show>)
+    # [[터치위즈] 홈[의]] 앱 [버전] 정보[을|를] 보여줘
+    | ([<Home_TouchWiz> <Home_Home>[의|에|에서]] 앱|엡|어플|애플|에플|애플리케이션|에플리케이션 [<Home_Version>] <Home_AppInfo>[을|를] <home_v_show>)
+    # [[터치위즈] 홈[의]] 앱 버전 [정보[을|를]] 보여줘
+    | ([<Home_TouchWiz> <Home_Home>[의|에|에서]] 앱|엡|어플|애플|에플|애플리케이션|에플리케이션 <Home_Version> [<Home_AppInfo>[을|를]] <home_v_show>);

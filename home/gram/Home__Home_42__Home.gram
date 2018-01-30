@@ -1,0 +1,10 @@
+# 앱스 화면에서 가나다 순서로 앱 정렬해줘
+
+grammar Home;
+public <Home> = <Home_42__Home>;
+
+<Home_42__Home> =
+    ( <AtApps> <Home_Alphabetical> <Home_Order>[로|으로|처럼] [<Home_Application>[[들](을|를)]] [다시] ( (<Home_Sort> <Common_Do>)|<Home_Change>) ) |
+    ( <Home_Alphabetical> <Home_Order>[로|으로|처럼] <AtApps> [<Home_Application>[[들](을|를)]] [다시] ( (<Home_Sort> <Common_Do>)|<Home_Change>) ) |
+    ( <AtApps> [<Home_Application>[[들](을|를)]] <Home_Alphabetical> <Home_Order>[로|으로|처럼] [다시] ( (<Home_Sort> <Common_Do>)|<Home_Change>) ) |
+    ( <AtApps> [<Home_Application>[[들](을|를)]] [다시] ( (<Home_Sort> <Common_Do>)|<Home_Change>) <Home_Alphabetical> <Home_Order>[로|으로|처럼] ) ;

@@ -1,0 +1,9 @@
+#JSGF V1.1
+
+grammar Home;
+# Delete Game folder in Apps screen /앱스 화면에서 게임 폴더를 삭제해줘
+
+public <Home> = <Home_98__AppsFolderRemovePopup>;
+
+<Home_98__AppsFolderRemovePopup> = 
+    ( <Common_Delete> ) ;

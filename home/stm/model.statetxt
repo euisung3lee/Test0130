@@ -1,0 +1,127 @@
+################################
+# Logging & Debugging	   	   #
+################################
+# for logging
+level = 'DEBUG'
+# verbose mode for debugging (using tag.test_value)
+TEST = 0
+# random seed
+seed = 123
+
+
+################################
+# Data Path				   	   #
+################################
+vocabulary = '/home/{your_id}/workspace/bixby_stagger/v1.2/dc_data/voca.pkl'
+label = '/home/{your_id}/workspace/bixby_stagger/v1.2/dc_data/mlabel.pkl'
+intent = '/home/{your_id}/workspace/bixby_stagger/v1.2/dc_data/intent.pkl'
+train_data = '/home/{your_id}/workspace/bixby_stagger/v1.2/dc_data/trainadd.pkl'
+chunk_dir = '/home/{your_id}/workspace/bixby_stagger/v1.2/dc_data/train_chunk'
+val_data = '/home/{your_id}/workspace/bixby_stagger/v1.2/dc_data/test.pkl'
+test_data = '/home/{your_id}/workspace/bixby_stagger/v1.2/dc_data/test.pkl'
+plist = '/home/{your_id}/workspace/bixby_stagger/v1.2/dc_data/plist'
+plists = ['app']
+charvoca = '/home/{your_id}/workspace/bixby_stagger/v1.2/dc_data/charvoca.pkl'
+train_unkvoca = '/home/{your_id}/workspace/bixby_stagger/v1.2/dc_data/train_unkvoca.pkl'
+test_unkvoca = '/home/{your_id}/workspace/bixby_stagger/v1.2/dc_data/test_unkvoca.pkl'
+clist = '/home/{your_id}/workspace/bixby_stagger/v1.2/dc_data/context.pkl'
+slotmasking = '/home/{your_id}/workspace/bixby_stagger/v1.2/dc_data/slotmasking.pkl'
+opentitle = '/home/{your_id}/workspace/bixby_stagger/v1.2/dc_data/opentitle.pkl'
+
+char_fixed_layer = 0
+char_layer_params = '/home/{your_id}/workspace/bixby_stagger/v1.2/dc_data/char_layer_params.pkl'
+#word_embedding = '/home/{your_id}/workspace/bixby_stagger/v1.2/dc_data/word_embedding.pkl'
+
+init_params = []
+
+################################
+# Model File Info		   	   #
+################################
+# model saving info
+save_dir = './model'
+model_name = 'sait'
+
+
+################################
+# Network Parameter Size  	   #
+################################
+# model parameter size
+
+#char embedding size
+chardim = 100
+#word embedding size
+wdim = 100
+#phrase embedding size
+pdim = 30
+#context embedding size
+context_dim = 20
+#intent embedding size
+intent_dim = 50
+#mlabel embedding size
+ldim = 50
+#bGRU input & bGRU hidden (wdim + pdim + context_dim)
+input_feature_dim = 150
+#clstm hidden_feature_dim
+hidden_feature_dim = 100
+#attention_dim
+attention_dim = 100
+
+# lm window
+window = 5
+
+# context size
+csize = 2
+# phrase size
+psize = 5
+# vocabulary size
+vsize = 14082
+# korean char size
+charsize = 2937
+# m-label size
+lsize = 72
+intentsize = 39
+# train data size
+traindata_size = 1573164
+
+################################
+# Training Configuration  	   #
+################################
+# number of basic train set
+num_train = 1
+# sampling weights inside basic (sum = 1) in order of number (ex- [0.7, 0.3])
+data_weight = [1]
+# sampling weight - add vs basic (default 1:9)
+adddata_weights = 0.1
+# step per 1 epoch
+step = 1000
+# batch size
+bs = 100
+# training epochs
+epochs = 50
+# steps of model saving
+save_epochs = 5
+# validation interval (# epochs)
+val_interval = 1
+# learning rate updater
+updater = 'adadelta'
+# total normalization cutoff for clipping gradients
+cutoff = 5
+# learning rate
+lr = 0.001
+# weight decaying factor
+weight_decay = 0.1 
+# dropout rate
+d_rate = 0.5
+
+################################
+# DO NOT MODIFY 		  	   #
+################################
+# markers
+unk = 14081
+eos = 14080
+charunk = 2937
+chareos = 2936
+# end_of_label
+eol = 71
+# out_of_slot
+out = 70

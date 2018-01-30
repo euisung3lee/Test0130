@@ -1,0 +1,13 @@
+# Open Game folder in Apps screen /앱스 화면에 있는 게임 폴더를 열어줘
+
+grammar Home;
+public <Home> = <Home_35__AppsPageView>;
+
+<Home_35__AppsPageView> = 
+    /4/ ( <FolderName> (<Common_Open>|<Home_Show>) ) |
+    /1/ ( (<Common_Open>|<Home_Show>) <FolderName> ) ;
+
+<FolderName> = ( <FolderFolder> <Home_Folder>) [을|를];
+
+#<FolderFolder> = /1/ <Home_Param_FolderName_AppsFolderView> | /4/ <Home_Param_FolderFolderAnapho_AppsFolderView> ;
+<FolderFolder> = <Home_Param_FolderName_AppsFolderView> ;

@@ -1,0 +1,10 @@
+#JSGF V1.1
+
+grammar FillingSlot__HomeSettingsHideAppsView;
+# 앱 이름을 날씨라고 입력해 줘
+
+public <Home> = <FillingSlot__HomeSettingsHideAppsView>;
+
+<FillingSlot__HomeSettingsHideAppsView> = 
+    ( [[<Home_Application>[의|에|에서]] <Home_Title>[을|를]] <Home_Param_AppName_HomeSettingsHideApps>(로|으로|라|라고|이라고) (<Home_Change>|<Home_DoAdd_txt>) ) |
+    ( <Home_Param_AppName_HomeSettingsHideApps>(로|으로|라|라고|이라고) [[<Home_Application>[의|에|에서]] <Home_Title>[을|를]] (<Home_Change>|<Home_DoAdd_txt>) ) ;

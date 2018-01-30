@@ -1,0 +1,15 @@
+#JSGF V1.1
+
+grammar Home;
+# Delete Game folder in Apps screen /앱스 화면에서 게임 폴더를 삭제해줘
+
+public <Home> = <Home_98__AppsFolderSelectedView>;
+
+<Home_98__AppsFolderSelectedView> = 
+    ( <ThatFolder> <Common_Delete> ) ;
+
+#<FolderFolder> = /1/ <Home_Param_FolderName_AppsFolderSelectedView> | /4/ <Home_Param_FolderFolderAnapho_AppsFolderSelectedView> ;
+<FolderFolder> = <Home_Param_FolderAnapho_AppsFolderRemovePopup> ;
+
+<ThatFolder> = 
+    ( /9/ (<FolderFolder> <Home_Folder>) | /1/ (<Home_Folder> <FolderFolder>) ) [을|를] ;

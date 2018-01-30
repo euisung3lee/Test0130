@@ -1,0 +1,9 @@
+#JSGF V1.1
+
+grammar HomeCN_14__AppsFolderSelectedView;
+# 앱스 화면에 있는 금융 폴더 잠궈줘
+
+public <Home> = <HomeCN_14__AppsFolderSelectedView>;
+
+<HomeCN_14__AppsFolderSelectedView> = 
+    ( [<Home_Folder> [을|를]] <Home_v_Lock> ) ;

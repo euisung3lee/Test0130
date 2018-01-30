@@ -1,0 +1,13 @@
+#  Change screen of home to 5X6/ 홈 화면을 5X6으로 변경해줘
+
+grammar Home;
+public <Home> = <Home_72__HomeSettingsGridSettingView>;
+
+<Home_72__HomeSettingsGridSettingView> = 
+    <ChangeGrid>[(로|으로)] ( /2/ <Home_Change>| /1/ <Home_Do_Use>| /10/ <Home_Do_Apply>) ;
+
+<ChangeGrid> = /1/ <param_grid> | /3/ <param_grid_anapho> | /3/ <param_grid_anapho_whole> ;
+
+<param_grid> = $HOME_GRIDOPTION_HOMESETTINGSCHANGEGRID;
+<param_grid_anapho> = $HOME_GRIDANAPHO_HOMESETTINGSCHANGEGRID;
+<param_grid_anapho_whole> = $HOME_GRIDANAPHO_HOMESETTINGSCHANGEGRID_WHOLE;

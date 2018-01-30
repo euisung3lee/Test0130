@@ -1,0 +1,6 @@
+# "페이스북" 삭제해줘 / Delete "Facebook"
+
+grammar Home;
+public <Home> = <Home_4__Home>;
+
+<Home_4__Home> = <Home_Param_AppName_HomeSingleAppSelectedView>[<Home_Apps>][(을|를)] (<Common_Delete>|(언인스톨|설치해제|설치취소|설치삭제)[<Common_Do>]);

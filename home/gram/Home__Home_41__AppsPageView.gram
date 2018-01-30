@@ -1,0 +1,20 @@
+# Move to 7th page of Apps screen /앱스 화면에서 7번째 페이지를 보여줘
+
+grammar Home;
+public <Home> = <Home_41__AppsPageView>;
+
+<Home_41__AppsPageView> =
+    /5/ ( <LandThePage> ) |
+    /1/ ( <Home_Show> <ThatPage> ) |
+    /1/ ( <Home_Go> <ToThePage> ) ;
+
+<ThatPage> = ( <PageLocation> <Home_Space> ) [(을|를)] ;
+<ShowThePage> = /5/ ( <ThatPage> <Home_Show> ) | /1/ ( <Home_Show> <ThatPage> ) ;
+
+<ToThePage> = ( <PageLocation> <Home_Space> ) [(로|으로|에|에다|에다가)] ;
+<GoThePage> = /5/ ( <ToThePage> <Home_Go> ) | /1/ ( <Home_Go> <ToThePage> ) ;
+
+<LandThePage> = <ShowThePage> | <GoThePage> ;
+
+#<PageLocation> = /9/ <Home_Param_Page_AppsPageMove>[번째] | /1/ <Home_Param_PageLocPageAnapho_AppsPageMove> ;
+<PageLocation> = <Home_Param_Page_AppsPageMove>[번째|째] ;

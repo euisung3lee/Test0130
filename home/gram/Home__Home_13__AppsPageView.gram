@@ -1,0 +1,23 @@
+# 앱스 화면에서 페이스북 아이콘을 3번째 페이지로 이동시켜줘 / Move Facebook app to 3rd page of Apps screen
+
+grammar Home;
+public <Home> = <Home_13__AppsPageView>;
+
+<Home_13__AppsPageView> = 
+    ( <AppName> <ToThePage> <Home_Move> ) |
+    ( <ToThePage> <AppName> <Home_Move> ) ;
+
+<AppName> = 
+    /1/ ( [<Home_Application>] <Home_Param_AppName_AppsSingleAppMove> ) | 
+    /5/ ( <Home_Param_AppName_AppsSingleAppMove> [<Home_Application>] ) [을|를] ;
+
+<ToThePage> = 
+    /1/ ( <Home_Space> <MovePage> (로|으로|에|에다|에다가) ) |
+    /9/ ( <MovePage> <Home_Space> (로|으로|에|에다|에다가) ) ;
+#    /1/ ( <Home_Param_Direction_AppsSingleAppMove>(로|으로|에|에다|에다가) <Home_Space> <Home_Param_Page_AppsSingleAppMove>[번째|째|번재] ) |
+#    /1/ ( <Home_Param_Direction_AppsSingleAppMove>(로|으로|에|에다|에다가) <Home_Param_Page_AppsSingleAppMove>[번째|째|번재] <Home_Space> ) |
+#    /1/ ( <Home_Space> <Home_Param_Page_AppsSingleAppMove>[번째|째|번재] <Home_Param_Direction_AppsSingleAppMove>(로|으로|에|에다|에다가) ) |
+#    /1/ ( <Home_Param_Page_AppsSingleAppMove>[번째|째|번재] <Home_Space> <Home_Param_Direction_AppsSingleAppMove>(로|으로|에|에다|에다가) ) ;
+
+<MovePage> = /9/ ( <Home_Param_Page_AppsSingleAppMove> [번째|째] ) | /1/ ( <Home_Param_AppMovePageAnapho_AppsSingleAppMove> ) ;
+#<MovePage> = ( <Home_Param_Page_AppsSingleAppMove> [번째|째] ) ;

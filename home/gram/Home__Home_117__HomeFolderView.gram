@@ -1,0 +1,16 @@
+#JSGF V1.1
+
+grammar Home;
+# 이 폴더의 투명도 20으로 설정해줘
+
+public <Home> = <Home_117__HomeFolderView>;
+
+<Home_117__HomeFolderView> = 
+    # 이 폴더
+    [이|요|선택한] <Home_Folder>[의|에]
+    # 투명도를 
+    <Home_Opicity> [을|를]
+    # 20으로 
+    <Home_Param_Opacity_HomeFolderBackgroundOpacityChanged> [로|으로]
+    # 설정해줘
+    (<Common_Do>|<Home_Change>|<Common_Save>);

@@ -1,0 +1,18 @@
+# Change name of Shopping folder in Apps screen to Shopping mall /앱스 화면에 있는 쇼핑 폴더의 이름을 쇼핑몰로 바꿔줘
+
+grammar Home;
+public <Home> = <Home_37__AppsPageView>;
+
+<Home_37__AppsPageView> = 
+    /5/ ( <FolderName> <Home_Title>[을|를] <ToNewFolderName> (<Common_Do>|<Home_Change>|<Home_Edit>) ) |
+    /2/ ( <FolderName> <Home_Title>[을|를] (<Common_Do>|<Home_Change>|<Home_Edit>) <ToNewFolderName> ) |
+    /1/ ( <FolderName> (<Common_Do>|<Home_Change>|<Home_Edit>) <Home_Title>[을|를] <ToNewFolderName> ) |
+    /1/ ( <FolderName> (<Common_Do>|<Home_Change>|<Home_Edit>) <ToNewFolderName> <Home_Title>[을|를] ) |
+    /1/ ( (<Common_Do>|<Home_Change>|<Home_Edit>) <FolderName> <Home_Title>[을|를] <ToNewFolderName> ) |
+    /1/ ( (<Common_Do>|<Home_Change>|<Home_Edit>) <FolderName> <ToNewFolderName> <Home_Title>[을|를] ) |
+    /2/ ( (<Common_Do>|<Home_Change>|<Home_Edit>) <FolderName> <Home_Title>[을|를] <ToNewFolderName> ) |
+    /1/ ( (<Common_Do>|<Home_Change>|<Home_Edit>) <FolderName> <ToNewFolderName> <Home_Title>[을|를] ) ;
+
+<ToNewFolderName> = ( <Home_Param_Text_AppsFolderEditName> | <Home_Param_Text_AppsFolderEditName_Simple> ) (로|으로|라|라고|이라고) ;
+
+<FolderName> = ( /1/ <Home_Folder> <Home_Param_FolderName_AppsFolderView> | /9/ <Home_Param_FolderName_AppsFolderView> <Home_Folder>)[에서|에|의] ;

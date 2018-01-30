@@ -1,0 +1,84 @@
+{
+    "c2": {
+        "train": {
+            "normal": "alter.100",
+            "rsu": "alter.100",
+            "nu": "alter.100"
+        },
+        "test": {
+            "normal": "orig.100",
+            "rsu": "",
+            "nu": ""
+        },
+        "v1": { 
+            "normal": "orig.100",
+            "rsu": "",
+            "nu": ""
+	    },
+        "v2": { 
+            "normal": "",
+            "rsu": "orig.100",
+            "nu": ""
+	    },
+        "v3": { 
+            "normal": "",
+            "rsu": "",
+            "nu": "orig.100"
+	    }
+    },
+    "c3": {
+        "train": {
+            "normal": "alter.70",
+            "rsu": "alter.70",
+            "nu": "orig.70"
+        },
+        "test": {
+            "normal": "orig.100",
+            "rsu": "",
+            "nu": ""
+        },
+        "v1": { 
+            "normal": "orig.30",
+            "rsu": "",
+            "nu": ""
+	    },
+        "v2": { 
+            "normal": "",
+            "rsu": "orig.30",
+            "nu": ""
+	    },
+        "v3": { 
+            "normal": "",
+            "rsu": "",
+            "nu": "orig.30"
+	    }
+    },
+    "c4": {
+        "train": {
+            "normal": "",
+            "rsu": "",
+            "nu": ""
+        },
+        "test": {
+            "normal": "orig.100",
+            "rsu": "",
+            "nu": ""
+        },
+        "v1": { 
+            "normal": "orig.100",
+            "rsu": "",
+            "nu": ""
+	    },
+        "v2": { 
+            "normal": "",
+            "rsu": "orig.100",
+            "nu": ""
+	    },
+        "v3": { 
+            "normal": "",
+            "rsu": "",
+            "nu": "orig.100"
+	    }
+    }
+}
+

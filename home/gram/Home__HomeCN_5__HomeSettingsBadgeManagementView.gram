@@ -1,0 +1,12 @@
+#JSGF V1.1
+
+grammar HomeCN_5__HomeSettingsBadgeManagementView;
+# 페이스북 앱 아이콘의 뱃지를 표시하지 않도록 설정해줘
+
+public <Home> = <HomeCN_5__HomeSettingsBadgeManagementView>;
+
+<HomeCN_5__HomeSettingsBadgeManagementView> = 
+    /2/ ( <app> <Home_Application> [의|에] <Home_Shortcut> [의|에] <Home_Bedge> [을|를] (<Home_Show>|<Home_On>) ) |
+    /5/ ( <app> <Home_Application> [의|에] <Home_Shortcut> [의|에] <Home_Bedge> [을|를] <Home_a_Show> (<Common_Do>|<Home_Change>|<Common_Save>) ) ;
+
+<app> = $HOME_APPNAME_HOMESETTINGSBADGESINGLEAPPDISABLE;

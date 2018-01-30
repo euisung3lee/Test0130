@@ -1,0 +1,6128 @@
+[
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_70"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [
+                {
+                    "originalPhrase": "페이지", 
+                    "index": {
+                        "endIndex": 3, 
+                        "startIndex": 3
+                    }, 
+                    "replacementPhrase": [
+                        "화면", 
+                        "메뉴"
+                    ]
+                }, 
+                {
+                    "originalPhrase": "열어줘", 
+                    "index": {
+                        "endIndex": 4, 
+                        "startIndex": 4
+                    }, 
+                    "replacementPhrase": [
+                        "열어", 
+                        "들어가", 
+                        "들어가줘", 
+                        "진입해", 
+                        "진입해줘"
+                    ]
+                }
+            ], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "sujinsue.kim@samsung.com", 
+        "difficulty": 1, 
+        "rsuFlag": "C", 
+        "phase": 1, 
+        "utterance": "홈 화면 설정 페이지 열어줘", 
+        "id": "2020791"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsFolderView - AppsFolderAddIconView - AppsFolderAddIcon", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_39"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "FolderName", 
+                    "value": "지도", 
+                    "stateId": "AppsFolderView"
+                }, 
+                {
+                    "index": {
+                        "endIndex": 3, 
+                        "startIndex": 2
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "T map", 
+                    "stateId": "AppsFolderAddIcon"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "AppsPageView"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "yeonsoo.do@samsung.com", 
+        "difficulty": 1, 
+        "rsuFlag": "C", 
+        "phase": 1, 
+        "utterance": "지도 폴더에 T map 추가해줘", 
+        "id": "2020854"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomeFolderView - HomeFolderRemoveIcon", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_34"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "FolderName", 
+                    "value": "SNS", 
+                    "stateId": "HomeFolderView"
+                }, 
+                {
+                    "index": {
+                        "endIndex": 4, 
+                        "startIndex": 3
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "T 멤버십", 
+                    "stateId": "HomeFolderRemoveIcon"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "so_young.yoo@samsung.com", 
+        "difficulty": 1, 
+        "rsuFlag": "C", 
+        "phase": 1, 
+        "utterance": "SNS 폴더 들어가서 T 멤버십 앱 지워", 
+        "id": "2020862"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_70"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [
+                {
+                    "originalPhrase": "열어줘", 
+                    "index": {
+                        "endIndex": 4, 
+                        "startIndex": 4
+                    }, 
+                    "replacementPhrase": [
+                        "오픈", 
+                        "보여줘", 
+                        "보여줄래", 
+                        "열어봐"
+                    ]
+                }, 
+                {
+                    "originalPhrase": "설정", 
+                    "index": {
+                        "endIndex": 2, 
+                        "startIndex": 2
+                    }, 
+                    "replacementPhrase": [
+                        "세팅"
+                    ]
+                }
+            ], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "hjjung.park@samsung.com", 
+        "difficulty": 1, 
+        "rsuFlag": "C", 
+        "phase": 1, 
+        "utterance": "홈 화면 설정 메뉴 열어줘", 
+        "id": "2020867"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomeWidgetMove", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_82"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "WidgetName", 
+                    "value": "날씨", 
+                    "stateId": "HomeWidgetMove"
+                }, 
+                {
+                    "index": {
+                        "endIndex": 4, 
+                        "startIndex": 4
+                    }, 
+                    "parameter": "Page", 
+                    "value": "세", 
+                    "stateId": "HomeWidgetMove"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [
+                {
+                    "originalPhrase": "날씨", 
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "replacementPhrase": [
+                        "리마인더", 
+                        "구글"
+                    ]
+                }, 
+                {
+                    "originalPhrase": "이 페이지에서", 
+                    "index": {
+                        "endIndex": 3, 
+                        "startIndex": 2
+                    }, 
+                    "replacementPhrase": [
+                        "여기서", 
+                        "이 화면에서"
+                    ]
+                }, 
+                {
+                    "originalPhrase": "페이지로", 
+                    "index": {
+                        "endIndex": 6, 
+                        "startIndex": 6
+                    }, 
+                    "replacementPhrase": [
+                        "화면으로"
+                    ]
+                }, 
+                {
+                    "originalPhrase": "이동시켜줘", 
+                    "index": {
+                        "endIndex": 7, 
+                        "startIndex": 7
+                    }, 
+                    "replacementPhrase": [
+                        "옮겨줘", 
+                        "무브"
+                    ]
+                }
+            ], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "sujinsue.kim@samsung.com", 
+        "difficulty": 1, 
+        "rsuFlag": "C", 
+        "phase": 1, 
+        "utterance": "날씨 위젯 이 페이지에서 세 번째 페이지로 이동시켜줘", 
+        "id": "2020869"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_70"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [
+                {
+                    "originalPhrase": "설정으로", 
+                    "index": {
+                        "endIndex": 2, 
+                        "startIndex": 2
+                    }, 
+                    "replacementPhrase": [
+                        "설정메뉴로", 
+                        "설정화면으로"
+                    ]
+                }, 
+                {
+                    "originalPhrase": "들어가줘", 
+                    "index": {
+                        "endIndex": 4, 
+                        "startIndex": 4
+                    }, 
+                    "replacementPhrase": [
+                        "진입해", 
+                        "진입해줘", 
+                        "들어가"
+                    ]
+                }
+            ], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "sujinsue.kim@samsung.com", 
+        "difficulty": 2, 
+        "rsuFlag": "C", 
+        "phase": 2, 
+        "utterance": "홈 화면 설정으로 좀 들어가줘", 
+        "id": "2020871"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageMove", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_2"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "Page", 
+                    "value": "3번째", 
+                    "stateId": "HomePageMove"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [
+                {
+                    "originalPhrase": "3번째", 
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "replacementPhrase": [
+                        "두 번째", 
+                        "다음"
+                    ]
+                }, 
+                {
+                    "originalPhrase": "홈화면으로", 
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 1
+                    }, 
+                    "replacementPhrase": [
+                        "홈으로", 
+                        "홈 스크린으로"
+                    ]
+                }
+            ], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "aeri17.kim@samsung.com", 
+        "difficulty": 2, 
+        "rsuFlag": "C", 
+        "phase": 2, 
+        "utterance": "3번째 홈화면으로 가자", 
+        "id": "2020901"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomeWidgetSelectedView - HomeRemoveWidget", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_83"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 1
+                    }, 
+                    "parameter": "WidgetName", 
+                    "value": "시계", 
+                    "stateId": "HomeWidgetSelectedView"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [
+                {
+                    "originalPhrase": "시계", 
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 1
+                    }, 
+                    "replacementPhrase": [
+                        "날씨", 
+                        "뉴스"
+                    ]
+                }, 
+                {
+                    "originalPhrase": "여기서", 
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "replacementPhrase": [
+                        "이 페이지에서"
+                    ]
+                }, 
+                {
+                    "originalPhrase": "없애줘", 
+                    "index": {
+                        "endIndex": 3, 
+                        "startIndex": 3
+                    }, 
+                    "replacementPhrase": [
+                        "지워", 
+                        "없애"
+                    ]
+                }
+            ], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "kyungrae.cho@samsung.com", 
+        "difficulty": 1, 
+        "rsuFlag": "C", 
+        "phase": 1, 
+        "utterance": "여기서 시계 위젯 없애줘", 
+        "id": "2020905"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomeWidgetSelectedView - HomeRemoveWidget", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_83"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "WidgetName", 
+                    "value": "S헬스", 
+                    "stateId": "HomeWidgetSelectedView"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [
+                {
+                    "originalPhrase": "S헬스", 
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "replacementPhrase": [
+                        "날씨", 
+                        "시계"
+                    ]
+                }, 
+                {
+                    "originalPhrase": "삭제해줘", 
+                    "index": {
+                        "endIndex": 2, 
+                        "startIndex": 2
+                    }, 
+                    "replacementPhrase": [
+                        "지워", 
+                        "없애"
+                    ]
+                }
+            ], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "kyungrae.cho@samsung.com", 
+        "difficulty": 1, 
+        "rsuFlag": "C", 
+        "phase": 1, 
+        "utterance": "S헬스 위젯 삭제해줘", 
+        "id": "2020908"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomeWidgetSelectedView - HomeRemoveWidget", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_83"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 3, 
+                        "startIndex": 3
+                    }, 
+                    "parameter": "WidgetName", 
+                    "value": "리마인더", 
+                    "stateId": "HomeWidgetSelectedView"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [
+                {
+                    "originalPhrase": "리마인더", 
+                    "index": {
+                        "endIndex": 3, 
+                        "startIndex": 3
+                    }, 
+                    "replacementPhrase": [
+                        "알림장"
+                    ]
+                }, 
+                {
+                    "originalPhrase": "페이지에", 
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 1
+                    }, 
+                    "replacementPhrase": [
+                        "화면에", 
+                        "스크린에"
+                    ]
+                }, 
+                {
+                    "originalPhrase": "없애줘", 
+                    "index": {
+                        "endIndex": 5, 
+                        "startIndex": 5
+                    }, 
+                    "replacementPhrase": [
+                        "지워줘", 
+                        "삭제해줘"
+                    ]
+                }
+            ], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "aeri17.kim@samsung.com", 
+        "difficulty": 1, 
+        "rsuFlag": "C", 
+        "phase": 1, 
+        "utterance": "이 페이지에 있는 리마인더 위젯 없애줘", 
+        "id": "2020910"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomePageAddPage", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_59"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [
+                {
+                    "originalPhrase": "화면", 
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 1
+                    }, 
+                    "replacementPhrase": [
+                        "스크린", 
+                        "페이지"
+                    ]
+                }
+            ], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "aeri17.kim@samsung.com", 
+        "difficulty": 1, 
+        "rsuFlag": "C", 
+        "phase": 1, 
+        "utterance": "홈 화면 추가해줘", 
+        "id": "2020913"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomeFolderSelectedView - HomeFolderClearBadge", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_90"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 2, 
+                        "startIndex": 2
+                    }, 
+                    "parameter": "FolderName", 
+                    "value": "삼성", 
+                    "stateId": "HomeFolderSelectedView"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [
+                {
+                    "originalPhrase": "화면", 
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 1
+                    }, 
+                    "replacementPhrase": [
+                        "페이지", 
+                        "스크린"
+                    ]
+                }, 
+                {
+                    "originalPhrase": "없애줘", 
+                    "index": {
+                        "endIndex": 5, 
+                        "startIndex": 5
+                    }, 
+                    "replacementPhrase": [
+                        "지워줘", 
+                        "삭제해줘"
+                    ]
+                }
+            ], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "aeri17.kim@samsung.com", 
+        "difficulty": 1, 
+        "rsuFlag": "C", 
+        "phase": 1, 
+        "utterance": "홈 화면 삼성 폴더 뱃지 없애줘", 
+        "id": "2020916"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsFolderSelectedView - AppsFolderClearBadge", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_93"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 2, 
+                        "startIndex": 2
+                    }, 
+                    "parameter": "FolderName", 
+                    "value": "구글", 
+                    "stateId": "AppsFolderSelectedView"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [
+                {
+                    "originalPhrase": "페이지", 
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 1
+                    }, 
+                    "replacementPhrase": [
+                        "화면"
+                    ]
+                }, 
+                {
+                    "originalPhrase": "삭제할래", 
+                    "index": {
+                        "endIndex": 5, 
+                        "startIndex": 5
+                    }, 
+                    "replacementPhrase": [
+                        "없앨래", 
+                        "지울래"
+                    ]
+                }
+            ], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "aeri17.kim@samsung.com", 
+        "difficulty": 1, 
+        "rsuFlag": "C", 
+        "phase": 1, 
+        "utterance": "앱스 페이지 구글 폴더 뱃지 삭제할래", 
+        "id": "2020919"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView - HomeSettingsHideAppsView - HomeSettingsHideApps", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_79"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 1
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "T전화", 
+                    "stateId": "HomeSettingsHideApps"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [
+                {
+                    "originalPhrase": "앱스에서", 
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "replacementPhrase": [
+                        "앱들에서", 
+                        "앱 많은데서"
+                    ]
+                }, 
+                {
+                    "originalPhrase": "숨김처리", 
+                    "index": {
+                        "endIndex": 2, 
+                        "startIndex": 2
+                    }, 
+                    "replacementPhrase": [
+                        "숨김", 
+                        "안 보이게"
+                    ]
+                }
+            ], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "aeri17.kim@samsung.com", 
+        "difficulty": 2, 
+        "rsuFlag": "C", 
+        "phase": 2, 
+        "utterance": "앱스에서 T전화 숨김처리 하고 싶어", 
+        "id": "2020921"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView - HomeSettingsHideAppsView - HomeSettingsUnHideApps", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_80"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 1
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "T전화", 
+                    "stateId": "HomeSettingsUnHideApps"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [
+                {
+                    "originalPhrase": "앱스에서", 
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "replacementPhrase": [
+                        "앱스 화면에서", 
+                        "앱들 화면에서"
+                    ]
+                }, 
+                {
+                    "originalPhrase": "보이게", 
+                    "index": {
+                        "endIndex": 3, 
+                        "startIndex": 3
+                    }, 
+                    "replacementPhrase": [
+                        "볼 수 있게", 
+                        "보게"
+                    ]
+                }
+            ], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "aeri17.kim@samsung.com", 
+        "difficulty": 1, 
+        "rsuFlag": "C", 
+        "phase": 1, 
+        "utterance": "앱스에서 T전화 다시 보이게 해줘", 
+        "id": "2020923"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomeWidgetSelectedView - HomeRemoveWidget", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_83"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 2, 
+                        "startIndex": 2
+                    }, 
+                    "parameter": "WidgetName", 
+                    "value": "날씨", 
+                    "stateId": "HomeWidgetSelectedView"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [
+                {
+                    "originalPhrase": "날씨", 
+                    "index": {
+                        "endIndex": 2, 
+                        "startIndex": 2
+                    }, 
+                    "replacementPhrase": [
+                        "웨더"
+                    ]
+                }, 
+                {
+                    "originalPhrase": "삭제해줘", 
+                    "index": {
+                        "endIndex": 4, 
+                        "startIndex": 4
+                    }, 
+                    "replacementPhrase": [
+                        "지워줘", 
+                        "없애줘"
+                    ]
+                }
+            ], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "aeri17.kim@samsung.com", 
+        "difficulty": 1, 
+        "rsuFlag": "C", 
+        "phase": 1, 
+        "utterance": "홈 화면에서 날씨 위젯 삭제해줘", 
+        "id": "2020927"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomePageRemovePopup - HomePageRemovePage", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_60"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "Page", 
+                    "value": "1페이지는", 
+                    "stateId": "HomePageRemovePopup"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [
+                {
+                    "originalPhrase": "1페이지는", 
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "replacementPhrase": [
+                        "2페이지", 
+                        "3페이지를"
+                    ]
+                }, 
+                {
+                    "originalPhrase": "통째로", 
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 1
+                    }, 
+                    "replacementPhrase": [
+                        "전부 다", 
+                        "싹"
+                    ]
+                }, 
+                {
+                    "originalPhrase": "삭제해줘", 
+                    "index": {
+                        "endIndex": 2, 
+                        "startIndex": 2
+                    }, 
+                    "replacementPhrase": [
+                        "지워", 
+                        "날려"
+                    ]
+                }
+            ], 
+            "id": [
+                "HomePageEditView"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "kyungrae.cho@samsung.com", 
+        "difficulty": 1, 
+        "rsuFlag": "C", 
+        "phase": 1, 
+        "utterance": "1페이지는 통째로 삭제해줘", 
+        "id": "2020949"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView - HomeSettingsHideAppsView - HomeSettingsHideApps", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_79"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "모바일 사원증", 
+                    "stateId": "HomeSettingsHideApps"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [
+                {
+                    "originalPhrase": "모바일 사원증", 
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 0
+                    }, 
+                    "replacementPhrase": [
+                        "녹스", 
+                        "갤러리"
+                    ]
+                }, 
+                {
+                    "originalPhrase": "안보이게 숨겨줘", 
+                    "index": {
+                        "endIndex": 4, 
+                        "startIndex": 3
+                    }, 
+                    "replacementPhrase": [
+                        "숨겨줘", 
+                        "안보이게 해줘"
+                    ]
+                }
+            ], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "kyungrae.cho@samsung.com", 
+        "difficulty": 2, 
+        "rsuFlag": "C", 
+        "phase": 2, 
+        "utterance": "모바일 사원증 화면에서 안보이게 숨겨줘", 
+        "id": "2020965"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView - HomeSettingsHideAppsView - HomeSettingsHideApps", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_79"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 2, 
+                        "startIndex": 2
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "배달통은", 
+                    "stateId": "HomeSettingsHideApps"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [
+                {
+                    "originalPhrase": "배달통은", 
+                    "index": {
+                        "endIndex": 2, 
+                        "startIndex": 2
+                    }, 
+                    "replacementPhrase": [
+                        "요기요는", 
+                        "11번가는"
+                    ]
+                }, 
+                {
+                    "originalPhrase": "표시 안되게 해줘", 
+                    "index": {
+                        "endIndex": 5, 
+                        "startIndex": 3
+                    }, 
+                    "replacementPhrase": [
+                        "숨겨줘", 
+                        "화면에서 숨겨줘"
+                    ]
+                }
+            ], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "kyungrae.cho@samsung.com", 
+        "difficulty": 2, 
+        "rsuFlag": "C", 
+        "phase": 2, 
+        "utterance": "이 중에서 배달통은 표시 안되게 해줘", 
+        "id": "2020969"
+    }, 
+    {
+        "status": 0, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSortOptionView - AppsAlphabeticalOrderSorted", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_42"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "AppsPageView"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "sooj.hwang@samsung.com", 
+        "difficulty": 2, 
+        "rsuFlag": "C", 
+        "phase": 2, 
+        "utterance": "여기 앱들 가나다 순으로 정리 좀 해줘", 
+        "id": "2020971"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomeSingleAppSelectedView - HomeSingleAppClearBadge", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_12"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "전화", 
+                    "stateId": "HomeSingleAppSelectedView"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [
+                {
+                    "originalPhrase": "전화", 
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "replacementPhrase": [
+                        "카톡", 
+                        "페북", 
+                        "인스타"
+                    ]
+                }, 
+                {
+                    "originalPhrase": "뱃지", 
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 1
+                    }, 
+                    "replacementPhrase": [
+                        "빨간 동그라미"
+                    ]
+                }, 
+                {
+                    "originalPhrase": "지워봐", 
+                    "index": {
+                        "endIndex": 2, 
+                        "startIndex": 2
+                    }, 
+                    "replacementPhrase": [
+                        "없애봐", 
+                        "지워줘"
+                    ]
+                }
+            ], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "sj09.an@samsung.com", 
+        "difficulty": 1, 
+        "rsuFlag": "C", 
+        "phase": 1, 
+        "utterance": "전화 뱃지 지워봐", 
+        "id": "2020987"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomeSingleAppSelectedView - HomeSingleAppRemove", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_5"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 2, 
+                        "startIndex": 2
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "카메라", 
+                    "stateId": "HomeSingleAppSelectedView"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "wonhee.ryu@samsung.com", 
+        "difficulty": 1, 
+        "rsuFlag": "C", 
+        "phase": 1, 
+        "utterance": "홈 화면에서 카메라 바로가기는 삭제할래", 
+        "id": "2021011"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsFolderMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_99"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "FolderName", 
+                    "value": "사진이라는", 
+                    "stateId": "AppsFolderMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "wonhee.ryu@samsung.com", 
+        "difficulty": 1, 
+        "rsuFlag": "C", 
+        "phase": 1, 
+        "utterance": "사진이라는 이름의 폴더 만들어줘", 
+        "id": "2021058"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_56"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [
+                {
+                    "originalPhrase": "모드로", 
+                    "index": {
+                        "endIndex": 3, 
+                        "startIndex": 3
+                    }, 
+                    "replacementPhrase": [
+                        "페이지", 
+                        "하는 곳"
+                    ]
+                }, 
+                {
+                    "originalPhrase": "보여줘", 
+                    "index": {
+                        "endIndex": 5, 
+                        "startIndex": 5
+                    }, 
+                    "replacementPhrase": [
+                        "띄워줘", 
+                        "열어줘"
+                    ]
+                }, 
+                {
+                    "originalPhrase": "편집", 
+                    "index": {
+                        "endIndex": 2, 
+                        "startIndex": 2
+                    }, 
+                    "replacementPhrase": [
+                        "수정", 
+                        "에딧"
+                    ]
+                }
+            ], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "sooj.hwang@samsung.com", 
+        "difficulty": 2, 
+        "rsuFlag": "C", 
+        "phase": 2, 
+        "utterance": "홈 화면 편집 모드로 좀 보여줘", 
+        "id": "2021101"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomePageChangeOrder", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_57"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 1
+                    }, 
+                    "parameter": "Page", 
+                    "value": "마지막", 
+                    "stateId": "HomePageChangeOrder"
+                }, 
+                {
+                    "index": {
+                        "endIndex": 4, 
+                        "startIndex": 4
+                    }, 
+                    "parameter": "MoveLocation", 
+                    "value": "첫", 
+                    "stateId": "HomePageChangeOrder"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [
+                {
+                    "originalPhrase": "마지막", 
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 1
+                    }, 
+                    "replacementPhrase": [
+                        "첫", 
+                        "1번"
+                    ]
+                }
+            ], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "sooj.hwang@samsung.com", 
+        "difficulty": 2, 
+        "rsuFlag": "C", 
+        "phase": 2, 
+        "utterance": "제일 마지막 홈 화면 첫 번째 로 좀 배치해줘", 
+        "id": "2021189"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView - AppsButtonSettingsView - HomeSettingsAppsButtonOn", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_76"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [
+                {
+                    "originalPhrase": "예전에", 
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "replacementPhrase": [
+                        "저번에", 
+                        "이전에"
+                    ]
+                }, 
+                {
+                    "originalPhrase": "있던", 
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 1
+                    }, 
+                    "replacementPhrase": [
+                        "존재하던", 
+                        "보이던"
+                    ]
+                }, 
+                {
+                    "originalPhrase": "앱스", 
+                    "index": {
+                        "endIndex": 2, 
+                        "startIndex": 2
+                    }, 
+                    "replacementPhrase": [
+                        "앱들"
+                    ]
+                }, 
+                {
+                    "originalPhrase": "만들어줘", 
+                    "index": {
+                        "endIndex": 5, 
+                        "startIndex": 5
+                    }, 
+                    "replacementPhrase": [
+                        "생성해줘", 
+                        "보여줘"
+                    ]
+                }
+            ], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "sguy.jeong@samsung.com", 
+        "difficulty": 1, 
+        "rsuFlag": "C", 
+        "phase": 1, 
+        "utterance": "예전에 있던 앱스 버튼 다시 만들어줘", 
+        "id": "2021510"
+    }, 
+    {
+        "status": 0, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView - AppsButtonSettingsView - HomeSettingsAppsButtonOn", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_76"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "sguy.jeong@samsung.com", 
+        "difficulty": 1, 
+        "rsuFlag": "C", 
+        "phase": 1, 
+        "utterance": "화면 아래에 앱스 버튼 보이게 해줘", 
+        "id": "2021516"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView - AppsButtonSettingsView - HomeSettingsAppsButtonOff", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_77"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [
+                {
+                    "originalPhrase": "없애줘", 
+                    "index": {
+                        "endIndex": 3, 
+                        "startIndex": 3
+                    }, 
+                    "replacementPhrase": [
+                        "숨겨줘", 
+                        "없애"
+                    ]
+                }
+            ], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "sguy.jeong@samsung.com", 
+        "difficulty": 1, 
+        "rsuFlag": "C", 
+        "phase": 1, 
+        "utterance": "앱스 버튼 다시 없애줘", 
+        "id": "2021523"
+    }, 
+    {
+        "status": 0, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView - AppsButtonSettingsView - HomeSettingsAppsButtonOn", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_76"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "앱스 버튼 추가해줘", 
+        "id": "3765196"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView - HomeSettingsHideAppsView - HomeSettingsUnHideApps", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_80"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "메시지", 
+                    "stateId": "HomeSettingsUnHideApps"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "메시지 숨김 해제해줘", 
+        "id": "3831720"
+    }, 
+    {
+        "status": 0, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView - HomeSettingsStyleSettingView - HomeSettingsChangeToHomeAppsScreenPopup - HomeSettingsChangeToSamsungGalaxyHome", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_75"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "홈화면 및 앱스 화면으로 설정해줘", 
+        "id": "3832250"
+    }, 
+    {
+        "status": 0, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView - AppsButtonSettingsView - HomeSettingsAppsButtonOn", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_76"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "앱스 버튼 좀 추가해줘", 
+        "id": "3894049"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView - HomeSettingsHideAppsView - HomeSettingsUnHideApps", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_80"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "메시지", 
+                    "stateId": "HomeSettingsUnHideApps"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "메시지 숨긴 거 다시 화면에 깔아줘", 
+        "id": "3894666"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "Samsung Notes", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "Samsung Notes 바탕화면에 아이콘 만들어줘", 
+        "id": "3906241"
+    }, 
+    {
+        "status": 0, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView - AppsButtonSettingsView - HomeSettingsAppsButtonOn", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_76"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "앱 버튼 추가", 
+        "id": "3906276"
+    }, 
+    {
+        "status": 0, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView - HomeSettingsStyleSettingView - HomeSettingsChangeToHomeAppsScreenPopup - HomeSettingsChangeToSamsungGalaxyHome", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_75"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "홈 화면과 앱스 화면 다 사용하게 해줘", 
+        "id": "3907682"
+    }, 
+    {
+        "status": 0, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView - AppsButtonSettingsView - HomeSettingsAppsButtonOn", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_76"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "앱스 버튼 추가해", 
+        "id": "4045410"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView - HomeSettingsHideAppsView - HomeSettingsUnHideApps", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_80"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "전화", 
+                    "stateId": "HomeSettingsUnHideApps"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "전화 앱 숨기기 해제", 
+        "id": "4045413"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomePageWidgetView - HomePageWidgetSearchResult - HomePageWidgetAdded", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_112"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "Text", 
+                    "value": "리마인더", 
+                    "stateId": "HomePageWidgetSearchResult"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "리마인더 위젯 좀 만들어줘", 
+        "id": "4066750"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "계산기", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "계산기 앱을 바탕화면에 깔아주세요", 
+        "id": "4093454"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "비디오 플레이어", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "비디오 플레이어 홈화면에 바로가기 생성", 
+        "id": "4093479"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "메시지", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "메시지 아이콘 바탕화면에 가줘", 
+        "id": "4094578"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "YouTube", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "YouTube 앱 바탕화면에 깔아줘", 
+        "id": "4109725"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 1
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "날씨", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "빅스비 날씨 어플 바탕화면에 깔아줘", 
+        "id": "4124756"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "손전등", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "손전등 아이콘 메인 화면에 보여줘", 
+        "id": "4141783"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 1
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "리마인더", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "바탕화면에 리마인더 꺼내줘", 
+        "id": "4141790"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "메모", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "메모 앱 바탕화면에 꺼내줘", 
+        "id": "4186645"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "알람", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "알람 아이콘 바탕화면에 띄워줘", 
+        "id": "4248643"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 1
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "연락처", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "배경화면에 연락처 단축 아이콘 만들기", 
+        "id": "4287000"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 2, 
+                        "startIndex": 2
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "네이버를", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "홈 화면에 네이버를 설치해주세요", 
+        "id": "4348825"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView - HomeSettingsHideAppsView - HomeSettingsUnHideApps", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_80"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "갤러리", 
+                    "stateId": "HomeSettingsUnHideApps"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "갤러리 숨기기 취소해줘", 
+        "id": "4360016"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "YouTube", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "YouTube 바로가기 설정", 
+        "id": "4401158"
+    }, 
+    {
+        "status": 0, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView - AppsButtonSettingsView - HomeSettingsAppsButtonOff", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_77"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "앱스 버튼 잠금 해줘", 
+        "id": "4402812"
+    }, 
+    {
+        "status": 0, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_70"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "메인화면 설정", 
+        "id": "4402813"
+    }, 
+    {
+        "status": 0, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView - HomeSettingsHideAppsView", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_78"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "숨긴 아이콘 다 표시", 
+        "id": "4470361"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "캘린더", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "캘린더 앱 홈화면에 바로가기 설정", 
+        "id": "4480235"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 1
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "카카오톡", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "바탕화면에 카카오톡 앱 설치", 
+        "id": "4480244"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "알람", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "알람 메인 화면으로 옮겨줘", 
+        "id": "4532708"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 1
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "milk", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "바탕화면에 milk 바로가기를 만들어줘", 
+        "id": "4562361"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView - HomeSettingsHideAppsView - HomeSettingsHideApps", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_79"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "갤러리", 
+                    "stateId": "HomeSettingsHideApps"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "갤러리 숨김", 
+        "id": "4581927"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomeWidgetSelectedView - HomeRemoveWidget", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_83"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 2, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "WidgetName", 
+                    "value": "웨더 퐁 날씨", 
+                    "stateId": "HomeWidgetSelectedView"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "웨더 퐁 날씨 위젯 설치 삭제해줘", 
+        "id": "4620861"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 2, 
+                        "startIndex": 1
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "음성 녹음", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "빅스비 음성 녹음 바탕화면에 넣어줘", 
+        "id": "4625623"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 2, 
+                        "startIndex": 2
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "YouTube", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "홈 화면에 YouTube 어플 보내줘", 
+        "id": "4628167"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "밀크", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "밀크 앱을 바탕화면에 깔아줘", 
+        "id": "4628356"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "DMB", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "DMB 홈으로 바로가기 설치해줘", 
+        "id": "4668172"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 1
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "리마인더", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "바탕화면에 리마인더 아이콘 만들어", 
+        "id": "4668177"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "삼성 music", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "삼성 music 홈 화면에 추가해줘", 
+        "id": "4689588"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "youtube", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "youtube 홈 화면으로 가져와줘", 
+        "id": "4739485"
+    }, 
+    {
+        "status": 0, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_70"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "바탕화면 설정 들어가줘", 
+        "id": "4930577"
+    }, 
+    {
+        "status": 0, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_70"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "HomePageEditView"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "바탕화면 설정 열어줘", 
+        "id": "4952656"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView - HomeSettingsGridSettingView - HomeSettingsChangeGrid", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_72"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 4, 
+                        "startIndex": 2
+                    }, 
+                    "parameter": "GridOption", 
+                    "value": "5 곱하기 6으로", 
+                    "stateId": "HomeSettingsChangeGrid"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "홈 화면을 5 곱하기 6으로 변경해줘", 
+        "id": "5122748"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomeSingleAppSelectedView - HomeSingleAppRemove", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_5"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 2, 
+                        "startIndex": 1
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "풀 TV", 
+                    "stateId": "HomeSingleAppSelectedView"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "빅스비 풀 TV 바로가기 삭제해줘", 
+        "id": "5129841"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView - HomeSettingsHideAppsView - HomeSettingsHideApps", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_79"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "아만다", 
+                    "stateId": "HomeSettingsHideApps"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "아만다 앱 숨김", 
+        "id": "5203290"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomeFolderView", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_28"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "FolderName", 
+                    "value": "애플리케이션", 
+                    "stateId": "HomeFolderView"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "애플리케이션 폴더 열어줘", 
+        "id": "5246133"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "알람", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "알람 아이콘 바탕화면에 설치해줘", 
+        "id": "5251236"
+    }, 
+    {
+        "status": 0, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomeWidgetPageMove", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_95"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "위젯 기능 열어줘", 
+        "id": "5272568"
+    }, 
+    {
+        "status": 0, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsFolderMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_99"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "바탕화면 폴더 생성", 
+        "id": "5272915"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "시계", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yenny95@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "시계 바탕화면으로 꺼내줘", 
+        "id": "5273765"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 1
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "갤러리", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "빅스비 갤러리 아이콘 바탕화면에 옮겨줘", 
+        "id": "5275588"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView - HomeSettingsHideAppsView - HomeSettingsUnHideApps", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_80"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "melon", 
+                    "stateId": "HomeSettingsUnHideApps"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "melon 숨기기 해제해줘", 
+        "id": "5276754"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomePageWidgetView - HomePageWidgetSearchResult - HomePageWidgetAdded", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_112"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "Text", 
+                    "value": "날씨", 
+                    "stateId": "HomePageWidgetSearchResult"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "날씨 위젯 설치", 
+        "id": "5276789"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomeFolderView", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_28"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "FolderName", 
+                    "value": "SNS", 
+                    "stateId": "HomeFolderView"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "SNS 폴더 들어가", 
+        "id": "5321547"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 3, 
+                        "startIndex": 2
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "Samsung Notes", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "홈 화면에 Samsung Notes 어플 깔아줘", 
+        "id": "5321548"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "t map", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "t map 바탕화면 옮겨줘", 
+        "id": "5321563"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "Samsung Music", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "Samsung Music 아이콘 바탕화면에 이동시켜줘", 
+        "id": "5321568"
+    }, 
+    {
+        "status": 0, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_70"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "홈화면 설정 가줘", 
+        "id": "5323719"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "네이버", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "네이버 앱 바탕화면에 깔아줘", 
+        "id": "5327867"
+    }, 
+    {
+        "status": 0, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView - AppsButtonSettingsView - HomeSettingsAppsButtonOn", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_76"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "앱스 홈 화면에 나타나게 해줘", 
+        "id": "5327877"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "Samsung Notes", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "Samsung Notes 어플을 바탕화면에 설치해줘", 
+        "id": "5327881"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 2, 
+                        "startIndex": 2
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "밀크", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "홈 화면에 밀크 어플 깔아줘", 
+        "id": "5327889"
+    }, 
+    {
+        "status": 0, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_97"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "앱 전체 리스트 보여줘", 
+        "id": "5327893"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView - HomeSettingsHideAppsView - HomeSettingsUnHideApps", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_80"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "네이버", 
+                    "stateId": "HomeSettingsUnHideApps"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "네이버 앱 숨김 해제해줘", 
+        "id": "5329057"
+    }, 
+    {
+        "status": 0, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_70"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "바탕화면 설정 보여줘", 
+        "id": "5329090"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "계산기", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "계산기 어플 홈에 바로가기 추가해줘", 
+        "id": "5330297"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "뮤직", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "뮤직 앱 바탕화면에 보여줘", 
+        "id": "5331437"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 1
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "리마인더", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "바탕화면에 리마인더 앱 바로가기 설치해줘", 
+        "id": "5334557"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 2, 
+                        "startIndex": 2
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "YouTube", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "홈 화면에 YouTube 아이콘 만들어줘", 
+        "id": "5361686"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomeFolderView", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_28"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "FolderName", 
+                    "value": "카메라", 
+                    "stateId": "HomeFolderView"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "카메라 폴더 열어줘", 
+        "id": "5361707"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "T map", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "T map 어플 바로가기 만들어주세요", 
+        "id": "5398983"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "Melon", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "Melon 앱 바로가기 바탕화면에 추가해줘", 
+        "id": "5400286"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView - HomeSettingsHideAppsView - HomeSettingsUnHideApps", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_80"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 2, 
+                        "startIndex": 2
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "카카오톡", 
+                    "stateId": "HomeSettingsUnHideApps"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "숨김 앱에서 카카오톡 다시 꺼내줘", 
+        "id": "5423703"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "t map", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "t map 아이콘 만들어줘", 
+        "id": "5423709"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomeFolderView", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_28"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "FolderName", 
+                    "value": "엔터테인먼트", 
+                    "stateId": "HomeFolderView"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "엔터테인먼트 폴더 열어줘", 
+        "id": "5423719"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomeSingleAppSelectedView - HomeSingleAppRemove", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_5"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "Facebook", 
+                    "stateId": "HomeSingleAppSelectedView"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "Facebook 바로가기 지워줘", 
+        "id": "5447422"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "음성 녹음", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "음성 녹음 앱을 홈 화면에 추가해줘", 
+        "id": "5447436"
+    }, 
+    {
+        "status": 0, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_70"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "바탕화면 설정 바꿔", 
+        "id": "5450575"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "Facebook", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "Facebook 바탕화면에 추가해줘", 
+        "id": "5463146"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "게임 런처", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "게임 런처 앱 바탕화면에 빼줘", 
+        "id": "5463148"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "일정", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "일정 어플을 바탕화면에 깔아줘", 
+        "id": "5463149"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "뮤직 뱅크", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "뮤직 뱅크 를 바탕화면에 추가해줘", 
+        "id": "5463150"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "milk", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "milk 아이콘 바탕화면에 좀 만들어줘", 
+        "id": "5463155"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomeSingleAppSelectedView - HomeSingleAppRemove", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_5"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "플레이 게임", 
+                    "stateId": "HomeSingleAppSelectedView"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "플레이 게임 앱 바로가기 삭제해줘", 
+        "id": "5463157"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 2, 
+                        "startIndex": 1
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "다음 메일", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "바탕화면에 다음 메일 깔아줘", 
+        "id": "5463169"
+    }, 
+    {
+        "status": 0, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView - AppsButtonSettingsView - HomeSettingsAppsButtonOff", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_77"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "home 앱스 버튼 제거", 
+        "id": "5464064"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomeSingleAppSelectedView - HomeSingleAppRemove", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_5"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 1
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "Melon", 
+                    "stateId": "HomeSingleAppSelectedView"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "바탕화면에서 Melon 바로가기 지워줘", 
+        "id": "5522440"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 2, 
+                        "startIndex": 1
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "게임 런처", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "바탕화면에 게임 런처 아이콘 추가해", 
+        "id": "5526305"
+    }, 
+    {
+        "status": 0, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView - AppsButtonSettingsView - HomeSettingsAppsButtonOff", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_77"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "홈 화면에 앱스 제거해줘", 
+        "id": "5526323"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 3, 
+                        "startIndex": 2
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "음성 녹음", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "홈 화면에 음성 녹음 어플 추가", 
+        "id": "5526325"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "Samsung Music", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "nondionysos@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "Samsung Music 앱 바탕화면에 바로가기 만들어줘", 
+        "id": "5530827"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "YouTube", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "YouTube 바로가기 만들어줘", 
+        "id": "5530884"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "t map", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "t map 바탕화면에 바로가기 만들어줘", 
+        "id": "5530886"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomeSingleAppMove", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_3"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "Instagram", 
+                    "stateId": "HomeSingleAppMove"
+                }, 
+                {
+                    "index": {
+                        "endIndex": 2, 
+                        "startIndex": 1
+                    }, 
+                    "parameter": "Page", 
+                    "value": "제일 첫", 
+                    "stateId": "HomeSingleAppMove"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "Instagram 제일 첫 화면으로 옮겨줘", 
+        "id": "5530891"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "DMB", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "DMB 아이콘 홈 화면에 배치", 
+        "id": "5530904"
+    }, 
+    {
+        "status": 0, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView - HomeSettingsHideAppsView - HomeSettingsHideApps", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_79"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "리마인더 홈에서 숨겨줘", 
+        "id": "5532531"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "samsung note", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "samsung note 바탕화면에 어플 깔아", 
+        "id": "5532532"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 1
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "band", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "바탕화면에 band 깔아줘", 
+        "id": "5532533"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "youtube", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "youtube 바탕화면에 깔아줘", 
+        "id": "5533796"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 1
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "네이버", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "바탕화면에 네이버 설치해줘", 
+        "id": "5533803"
+    }, 
+    {
+        "status": 0, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView - AppsButtonSettingsView - HomeSettingsAppsButtonOff", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_77"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "홈 화면에서 앱스 지워", 
+        "id": "5533814"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomePageWidgetView - HomePageWidgetSearchResult - HomePageWidgetAdded", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_112"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 5, 
+                        "startIndex": 3
+                    }, 
+                    "parameter": "Text", 
+                    "value": "Samsung Music 플레이어", 
+                    "stateId": "HomePageWidgetSearchResult"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "빅스비 홈 화면에 Samsung Music 플레이어 위젯 추가해줘", 
+        "id": "5560864"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "후후", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "후후 앱을 홈 화면 바로가기 추가해줘", 
+        "id": "5585588"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 2, 
+                        "startIndex": 2
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "연락처", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "홈 화면에 연락처 바로가기 설정", 
+        "id": "5586471"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 2, 
+                        "startIndex": 2
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "YouTube", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "koround@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "홈 화면에 YouTube 아이콘 나타나게 해줘", 
+        "id": "5605115"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomeSingleAppSelectedView - HomeSingleAppRemove", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_5"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 2, 
+                        "startIndex": 2
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "Coupang", 
+                    "stateId": "HomeSingleAppSelectedView"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "koround@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "바탕화면에 있는 Coupang 좀 바로가기 삭제해줘", 
+        "id": "5605125"
+    }, 
+    {
+        "status": 0, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView - AppsButtonSettingsView - HomeSettingsAppsButtonOn", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_76"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "홈 화면에 앱스 버튼 추가해줘", 
+        "id": "5616311"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "캘린더", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "캘린더 어플 바탕화면에 바로가기 설치해줘", 
+        "id": "5616318"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 2, 
+                        "startIndex": 1
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "음성 녹음", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "nondionysos@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "빅스비 음성 녹음 바탕화면에 깔아줘", 
+        "id": "5622903"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView - HomeSettingsHideAppsView - HomeSettingsUnHideApps", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_80"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "네이버", 
+                    "stateId": "HomeSettingsUnHideApps"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "네이버 앱 숨기기 꺼줘", 
+        "id": "5636653"
+    }, 
+    {
+        "status": 0, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomeSettingsView", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_70"
+        }, 
+        "stateId": {
+            "parameterList": [], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "rubin.ut@yopmail.com", 
+        "difficulty": 2, 
+        "rsuFlag": "D", 
+        "phase": 2, 
+        "utterance": "바탕화면 설정 가줘", 
+        "id": "5636660"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "youtube", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "koround@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "youtube 홈 화면에 추가해줘", 
+        "id": "5655636"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "youtube", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "koround@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "youtube 홈 화면에 추가", 
+        "id": "5655637"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "YouTube", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "koround@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "YouTube 홈화면에 바로가기 생성해줘", 
+        "id": "5655638"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 1
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "gmail", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yfrance86@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "바탕화면에 gmail 바로가기 만들어줘", 
+        "id": "5655753"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomePageWidgetView - HomePageWidgetSearchResult - HomePageWidgetAdded", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_112"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "Text", 
+                    "value": "samsung 캘린더", 
+                    "stateId": "HomePageWidgetSearchResult"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "koround@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "samsung 캘린더 홈 화면에 위젯 띄워줘", 
+        "id": "5670535"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 1
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "YouTube", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "koround@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "바탕화면에 YouTube 바로가기 하나만 만들어줘", 
+        "id": "5699760"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomeSingleAppSelectedView - HomeSingleAppRemove", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_5"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 2, 
+                        "startIndex": 1
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "Melon DJ", 
+                    "stateId": "HomeSingleAppSelectedView"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "koround@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "바로가기에서 Melon DJ 지워줘", 
+        "id": "5699762"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "계산기", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yenny95@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "계산기 어플 바탕화면 설치", 
+        "id": "5719480"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "계산기", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "lastLeanDate": "2017-12-08 02:22:37.0", 
+        "charSet": "ko-KR", 
+        "accountName": "yenny95@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "계산기 앱 홈 화면으로 꺼내줘", 
+        "id": "5719489"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomeSingleAppSelectedView - HomeSingleAppRemove", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_5"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "T map을", 
+                    "stateId": "HomeSingleAppSelectedView"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "koround@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "T map을 홈 화면에서 지워줘", 
+        "id": "5742191"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "Melon을", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "koround@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "Melon을 바탕화면으로 보내줘", 
+        "id": "5758160"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "genie music", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "koround@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "genie music 바탕화면에 깔아줘", 
+        "id": "5758165"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomeSingleAppSelectedView - HomeSingleAppRemove", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_5"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "뱅크 샐러드", 
+                    "stateId": "HomeSingleAppSelectedView"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "koround@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "뱅크 샐러드 바로가기 삭제", 
+        "id": "5758172"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "Play 뮤직", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "koround@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "Play 뮤직 앱 바탕화면에 추가", 
+        "id": "5758183"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomeSingleAppSelectedView - HomeSingleAppRemove", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_5"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "band", 
+                    "stateId": "HomeSingleAppSelectedView"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "koround@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "band 바로가기 삭제시켜줘", 
+        "id": "5758186"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomePageEditView - HomePageWidgetView - HomePageWidgetSearchResult - HomePageWidgetAdded", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_112"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "Text", 
+                    "value": "S헬스", 
+                    "stateId": "HomePageWidgetSearchResult"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "koround@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "S헬스 위젯을 홈 화면에 불러오기", 
+        "id": "5758187"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomeSingleAppSelectedView - HomeSingleAppRemove", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_5"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 1
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "T머니", 
+                    "stateId": "HomeSingleAppSelectedView"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "koround@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "빅스비 T머니 어플 바로가기 삭제해줘", 
+        "id": "5767916"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "올레 TV", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "koround@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "올레 TV 아이콘 생성", 
+        "id": "5767917"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - HomeSingleAppSelectedView - HomeSingleAppRemove", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_5"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 1
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "CGV", 
+                    "stateId": "HomeSingleAppSelectedView"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "koround@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "바로가기 CGV 삭제", 
+        "id": "5779643"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "band", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "koround@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "band 바로가기 만들어줘", 
+        "id": "5779660"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "FollowUp", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 1, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "바이블 25", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Home"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "koround@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "바이블 25 앱 바탕화면에 꺼내줘", 
+        "id": "5779661"
+    }, 
+    {
+        "status": 1, 
+        "utteranceType": "Root", 
+        "domain": "Home", 
+        "confirmStatus": "Confirmed", 
+        "pathRuleDetails": {
+            "pathRuleName": "Root - Home - AppsPageView - AppsSingleAppMakeShortcut", 
+            "isConditional": "N", 
+            "pathRuleId": "Home_21"
+        }, 
+        "stateId": {
+            "parameterList": [
+                {
+                    "index": {
+                        "endIndex": 0, 
+                        "startIndex": 0
+                    }, 
+                    "parameter": "AppName", 
+                    "value": "계산기를", 
+                    "stateId": "AppsSingleAppMakeShortcut"
+                }
+            ], 
+            "optionalList": [], 
+            "replacementList": [], 
+            "id": [
+                "Root"
+            ]
+        }, 
+        "charSet": "ko-KR", 
+        "accountName": "yenny95@dialogdesign.co.kr", 
+        "difficulty": 2, 
+        "rsuFlag": "U", 
+        "phase": 2, 
+        "utterance": "계산기를 홈 화면으로 옮겨줘", 
+        "id": "5779728"
+    }
+]

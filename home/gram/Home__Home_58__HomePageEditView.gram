@@ -1,0 +1,10 @@
+# Set 3rd page of home screen as Default page /홈 화면에서 3번째 페이지를 기본 페이지로 설정해줘
+
+grammar Home;
+public <Home> = <Home_58__HomePageEditView>;
+
+<Home_58__HomePageEditView> = 
+    ( <ThatPage> <Home_Mainpage>[(로|으로)] (<Common_Do>|<Home_Change>|<Common_Save>) ) ;
+
+<ThatPage> = ( <Home_Param_Page_HomePageSetMainPage> [번째|째] | <Home_Param_PageLocPageAnapho_HomePageSetMainPage> ) <Home_Space> (를|을) ;
+#<ThatPage> = ( <Home_Param_Page_HomePageSetMainPage> [번째|째] ) <Home_Space> (를|을) ;

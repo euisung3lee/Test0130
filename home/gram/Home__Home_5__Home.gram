@@ -1,0 +1,10 @@
+# 홈 화면에서 페이스북 아이콘을 삭제해줘 / Delete Facebook icon in home
+
+grammar Home;
+public <Home> = <Home_5__Home>;
+
+<Home_5__Home> = 
+    /4/ ( <Home_Param_AppName_HomeSingleAppSelectedView>[라는|이라는][<Home_Application>][의|에] <Home_Shortcut>[을|를] <Common_Delete> ) |
+    /1/ ( <Home_Shortcut>[을|를] <Home_Param_AppName_HomeSingleAppSelectedView>[<Home_Application>][라는|이라는][의|에] <Common_Delete> ) |
+    /2/ ( <Common_Delete> <Home_Param_AppName_HomeSingleAppSelectedView>[라는|이라는][<Home_Application>][의|에] <Home_Shortcut>[을|를] ) |
+    /1/ ( <Common_Delete> <Home_Shortcut>[을|를] <Home_Param_AppName_HomeSingleAppSelectedView>[라는|이라는][<Home_Application>][의|에] ) ;

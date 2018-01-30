@@ -1,0 +1,19 @@
+# Move to 2nd page in Game Folder/홈 화면에 있는 게임 폴더에서 2번째 페이지를 보여줘
+
+grammar Home;
+public <Home> = <Home_30>;
+
+<Home_30> =
+    ( <AtHome> <FolderName> <LandThePage> ) |
+    ( <Home_Go> <AtHome> <FolderName> <ToThePage> ) | 
+    ( <Home_Show> <AtHome> <FolderName> <ThatPage> ) ;
+
+<ThatPage> = ( <Home_Param_Page_HomeFolderPageMove>[번째|째] <Home_Space> ) (을|를) ;
+<ShowThePage> = /5/ ( <ThatPage> <Home_Show> ) | /1/ ( <Home_Show> <ThatPage> ) ;
+
+<ToThePage> = ( <Home_Param_Page_HomeFolderPageMove>[번째|째] <Home_Space> ) (로|으로|에|에다|에다가) ;
+<GoThePage> = /5/ ( <ToThePage> <Home_Go> ) | /1/ ( <Home_Go> <ToThePage> ) ;
+
+<LandThePage> = <ShowThePage> | <GoThePage> ;
+
+<FolderName> = (<Home_Folder> <Home_Param_FolderName_HomeFolderView>|<Home_Param_FolderName_HomeFolderView> <Home_Folder>)[에서|에|의];

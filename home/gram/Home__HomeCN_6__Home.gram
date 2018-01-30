@@ -1,0 +1,11 @@
+#JSGF V1.1
+
+grammar HomeCN_6__Home;
+# 홈 화면에 있는 페이스북 앱 잠궈줘
+
+public <Home> = <HomeCN_6__Home>;
+
+<HomeCN_6__Home> = 
+    ( <app> <Home_Application> [을|를] <Home_v_Lock> ) ;
+
+<app> = $HOME_APPNAME_HOMESINGLEAPPSELECTEDVIEW;

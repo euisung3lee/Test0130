@@ -1,0 +1,8 @@
+# 페이스북 앱을 삭제해줘 / Delete Facebook
+
+grammar Home;
+public <Home> = <Home_16__AppsSingleAppUninstallDisablePopUp>;
+
+<Home_16__AppsSingleAppUninstallDisablePopUp> = 
+    ( [<Home_Param_AppAnapho_AppsSingleAppUninstallDisablePopUp>] (<Common_Delete> | <Home_Uninstall>[<Common_Do>]) )|
+    ( (<Common_Delete> | <Home_Uninstall>[<Common_Do>]) [<Home_Param_AppAnapho_AppsSingleAppUninstallDisablePopUp>] );

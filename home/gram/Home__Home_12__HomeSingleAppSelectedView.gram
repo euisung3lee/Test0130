@@ -1,0 +1,10 @@
+# 홈 화면에서 페이스북 아이콘의 뱃지를 지워줘 / Remove badge of facebook in Home screen
+
+grammar Home;
+public <Home> = <Home_12__HomeSingleAppSelectedView>;
+
+<Home_12__HomeSingleAppSelectedView> = 
+    <SingleApp> [<Home_Application>][(의|에) [<Home_AddOn>]] <Home_Bedge>[(을|를)] <Home_Remove> ;
+
+#<SingleApp> =  /1/ <Home_Param_AppName_HomeSingleAppSelectedView> | /4/ <Home_Param_AppAppAnapho_HomeSingleAppSelectedView> ;
+<SingleApp> =  <Home_Param_AppName_HomeSingleAppSelectedView> ;

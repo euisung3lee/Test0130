@@ -1,0 +1,11 @@
+#JSGF V1.1
+
+grammar Home;
+# Delete Badge of Game folder in Apps screen /앱스 화면에서 게임 폴더의 뱃지를 삭제해줘
+
+public <Home> = <Home_93__AppsPageView>;
+
+<Home_93__AppsPageView> = 
+    /6/ ( <Home_Param_FolderName_AppsFolderSelectedView>[라는|이라는] <Home_Folder>[(의|에) [<Home_AddOn>]] <Home_Bedge>[(을|를)] <Home_Remove> ) | 
+    /2/ ( <Home_Bedge>[(을|를)] <Home_Remove> <Home_Param_FolderName_AppsFolderSelectedView>[라는|이라는] <Home_Folder>[(의|에) [<Home_AddOn>]] ) |
+    /2/ ( <Home_Remove> <Home_Param_FolderName_AppsFolderSelectedView>[라는|이라는] <Home_Folder>[(의|에) [<Home_AddOn>]] <Home_Bedge>[(을|를)] ) ;

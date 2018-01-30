@@ -1,0 +1,19 @@
+# Change name of Shopping Folder in home to Shopping mall /홈 화면에 있는 쇼핑 폴더의 이름을 쇼핑몰로 바꿔줘
+
+grammar Home;
+public <Home> = <Home_31__HomeFolderView>;
+
+<Home_31__HomeFolderView> = 
+    /5/ ( <TextFolder> <Home_Title>[을|를] <ToNewFolderName> (<Common_Do>|<Home_Change>|<Home_Edit>) ) |
+    /2/ ( <TextFolder> <Home_Title>[을|를] (<Common_Do>|<Home_Change>|<Home_Edit>) <ToNewFolderName> ) |
+    /1/ ( <TextFolder> (<Common_Do>|<Home_Change>|<Home_Edit>) <Home_Title>[을|를] <ToNewFolderName> ) |
+    /1/ ( <TextFolder> (<Common_Do>|<Home_Change>|<Home_Edit>) <ToNewFolderName> <Home_Title>[을|를] ) |
+    /2/ ( (<Common_Do>|<Home_Change>|<Home_Edit>) <TextFolder> <Home_Title>[을|를] <ToNewFolderName> ) |
+    /1/ ( (<Common_Do>|<Home_Change>|<Home_Edit>) <TextFolder> <ToNewFolderName> <Home_Title>[을|를] ) ;
+
+<ToNewFolderName> = ( <Home_Param_Text_HomeFolderEditName> | <Home_Param_Text_HomeFolderEditName_Simple> ) (로|으로|라|라고|이라고) ;
+
+#<FolderName> = ( /1/ <Home_Folder> <Home_Param_FolderName_HomeFolderView> | /9/ <Home_Param_FolderName_HomeFolderView> <Home_Folder>)[에서|에|의];
+<TextFolder> = <Home_Param_TextFolderAnapho_HomeFolderEditName> ;
+
+#<FolderFolder> = /4/ <Home_Param_FolderName_HomeFolderView> | /1/ <Home_Param_FolderFolderAnapho_HomeFolderView> ;

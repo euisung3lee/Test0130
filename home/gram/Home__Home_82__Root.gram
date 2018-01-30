@@ -1,0 +1,20 @@
+#JSGF V1.1
+
+grammar Home;
+# Move weather widget to 2nd page of Home screen/ 홈 화면에서 날씨 위젯을 2번째 페이지로 이동시켜줘
+
+public <Home> = <Home_82>;
+
+<Home_82> = 
+    ( [<AtHome>] <Home_Param_WidgetName_HomeWidgetMove> <Home_Widget>[(을|를)] <ToThePage> <Home_Move> ) |
+    ( <Home_Param_WidgetName_HomeWidgetMove> <Home_Widget>[(을|를)] [<AtHome>] <ToThePage> <Home_Move> ) |
+    ( [<AtHome>] <ToThePage> <Home_Param_WidgetName_HomeWidgetMove> <Home_Widget>[(을|를)] <Home_Move> ) |
+    ( [<AtHome>] <Home_Widget>[(을|를)] <Home_Move> ) ;
+
+<ToThePage> = 
+    /3/ ( <Home_Space> <Home_Param_Page_HomeWidgetMove>[번째|째] (로|으로|에|에다|에다가) ) |
+    /9/ ( <Home_Param_Page_HomeWidgetMove>[번째|째] <Home_Space> (로|으로|에|에다|에다가) ) ;
+#    /1/ ( <Home_Param_Direction_HomeWidgetMove>(로|으로|에|에다|에다가) <Home_Space> <Home_Param_Page_HomeWidgetMove>[번째|째] ) |
+#    /1/ ( <Home_Param_Direction_HomeWidgetMove>(로|으로|에|에다|에다가) <Home_Param_Page_HomeWidgetMove>[번째|째] <Home_Space> ) |
+#    /1/ ( <Home_Space> <Home_Param_Page_HomeWidgetMove>[번째|째] <Home_Param_Direction_HomeWidgetMove>(로|으로|에|에다|에다가) ) |
+#    /1/ ( <Home_Param_Page_HomeWidgetMove>[번째|째] <Home_Space> <Home_Param_Direction_HomeWidgetMove>(로|으로|에|에다|에다가) ) ;

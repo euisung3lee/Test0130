@@ -1,0 +1,10 @@
+# Open Game folder in Home screen /홈 화면에 있는 게임 폴더를 열어줘
+
+grammar Home;
+public <Home> = <Home_28>;
+
+<Home_28> = 
+    /4/ ( <AtHome> <FolderName> (<Common_Open>|<Home_Show>) ) |
+    /1/ ( (<Common_Open>|<Home_Show>) <AtHome> <FolderName> ) ;
+
+<FolderName> = ( /1/ <Home_Folder> <Home_Param_FolderName_HomeFolderView> | /9/ <Home_Param_FolderName_HomeFolderView> <Home_Folder> ) [을|를] ;
