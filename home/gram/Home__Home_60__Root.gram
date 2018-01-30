@@ -1,8 +1,0 @@
-#  Delete 4th page of Home screen /홈 화면에서 4번째 페이지를 삭제해줘
-
-grammar Home;
-public <Home> = <Home_60>;
-
-<Home_60> = 
-    ( [<AtHome>] <Home_Param_Page_HomePageRemovePopup>[번째|째][의|에] <Home_Space>[(을|를)] <Common_Delete> ) |
-    ( <Home_Param_Page_HomePageRemovePopup>[번째|째][의|에] <Home_Space>[(을|를)] [<FromHome>] <Common_Delete> ) ;

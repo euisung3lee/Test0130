@@ -1,8 +1,0 @@
-# I want to add weather widget into Home screen /홈 화면에 날씨 위젯을 추가 해줘
-
-grammar Home;
-public <Home> = <Home_69__HomePageEditView>;
-
-<Home_69__HomePageEditView> =
-    /3/ ( <Home_Param_Text_HomePageWidgetSearchResult> <Home_Widget>[(을|를)] <Home_DoAddorMake_sth> ) |
-    /1/ ( <Home_Param_Text_HomePageWidgetSearchResult> <Home_Widget>[(을|를)] <Home_Do_Bring> ) ;

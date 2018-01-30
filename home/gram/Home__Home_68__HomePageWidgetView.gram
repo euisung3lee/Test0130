@@ -1,7 +1,0 @@
-# Search weather widget /날씨 위젯 검색해줘
-
-grammar Home;
-public <Home> = <Home_68__HomePageWidgetView>;
-
-<Home_68__HomePageWidgetView> = 
-    ( <Home_Param_Text_HomePageWidgetSearchResult> <Home_Widget>[(을|를)] [좀] (<Home_Find>|<Home_Show>) ) ;

@@ -1,8 +1,0 @@
-# Remove blank space among apps in Apps screen/ 앱스 화면에서 앱 사이에 빈 공간 없이 앱 배치해줘
-
-grammar Home;
-public <Home> = <Home_44__AppsTidyUpPagesPreviewView>;
-
-<Home_44__AppsTidyUpPagesPreviewView> = 
-    ( [<Home_Application>][사이][의|에] <Home_Empty> <Home_Space>[(을|를)] (<Common_Update>|<Common_Remove>) ) |
-    ( [<Home_Application>][사이][의|에] <Home_Empty> <Home_Space>(이|가)(없이|없도록) [<Home_Application>][을|들을] (<Home_Move>) ) ;

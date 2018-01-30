@@ -1,7 +1,0 @@
-# Add a page to Home screen /홈 화면에 페이지 추가해줘
-
-grammar Home;
-public <Home> = <Home_59__HomePageEditView>;
-
-<Home_59__HomePageEditView> = 
-    ( [<Home_New>] <Home_Space>[(을|를)] <Home_DoAddorMake_sth> ) ;

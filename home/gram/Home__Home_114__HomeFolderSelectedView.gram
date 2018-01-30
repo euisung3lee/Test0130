@@ -1,9 +1,0 @@
-#JSGF V1.1
-
-grammar Home;
-# 이 폴더 삭제해줘
-
-public <Home> = <Home_114__HomeFolderSelectedView>;
-
-<Home_114__HomeFolderSelectedView> = 
-    [이|요|지금] <Home_Folder>[(의|에)] <Home_Shortcut>[들][(을|를)] <Common_Delete>;

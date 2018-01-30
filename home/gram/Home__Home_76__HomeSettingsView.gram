@@ -1,7 +1,0 @@
-# 앱스 버튼 활성화시켜줘
-
-grammar Home;
-public <Home> = <Home_76__HomeSettingsView>;
-
-<Home_76__HomeSettingsView> = 
-    <Home_Apps> (버튼|아이콘|단추|메뉴)[(을|를)] (<Home_Show>|<Home_On>);

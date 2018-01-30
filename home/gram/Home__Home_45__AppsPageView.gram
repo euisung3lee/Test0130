@@ -1,7 +1,0 @@
-# Execute Contact us in Apps screen/앱스 화면에서 문의하기 실행해줘
-
-grammar Home;
-public <Home> = <Home_45__AppsPageView>;
-
-<Home_45__AppsPageView> = 
-    [<AtApps>] <Home_ContactUs> ([실행]<Common_Do>|[<Home_Space>]<Home_Show>);

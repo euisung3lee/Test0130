@@ -1,9 +1,0 @@
-#JSGF V1.1
-
-grammar Home;
-# 이 폴더 아이콘 삭제해줘
-
-public <Home> = <Home_114__HomeFolderRemoveShortcutPopup>;
-
-<Home_114__HomeFolderRemoveShortcutPopup> = 
-    <Common_Delete>;

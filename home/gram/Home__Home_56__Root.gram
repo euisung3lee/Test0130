@@ -1,7 +1,0 @@
-# "I want to edit home screen." /"홈 화면 편집하고 싶어"
-
-grammar Home;
-public <Home> = <Home_56>;
-
-<Home_56> = 
-    ( <Home_Home> [<Home_Space>] [을|를] [편집|수정[모드로]] (<Home_Change>|<Home_Edit>|<Home_Modify>) ) ;
